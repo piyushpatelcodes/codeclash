@@ -5,7 +5,7 @@ export interface IUser {
   _id?: Types.ObjectId;
   email: string;
   password: string;
-  role: 'superadmin' | 'admin' | 'labtester' | 'sales';
+  role: 'superadmin' | 'admin' | 'labtester' | 'sales' | 'finance';
   authority: Types.ObjectId | IUser; // Reference to another user (authority)
   // sharedWith?: Types.ObjectId[];
   domainOwner: boolean; // Flag to mark the first admin of a domain
@@ -30,7 +30,7 @@ const userSchema = new Schema<IUser>(
     },
     role: {
       type: String,
-      enum: ['superadmin', 'admin', 'labtester', 'sales'],
+      enum: ['superadmin', 'admin', 'labtester', 'sales' , 'finance'],
       default: 'sales',
       required: true,
     },

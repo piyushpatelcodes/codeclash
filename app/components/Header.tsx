@@ -21,7 +21,9 @@ export default function Header() {
   };
 
   return (
-    <div className=" navbar bg-base-300 sticky top-0 z-40 ">
+    < >
+      <div className=" w-28 h-5 bg-indigo-500 fixed  z-0"></div>
+    <div className=" navbar backdrop-blur-xl bg-white/10 text-black dark:text-white  dark:bg-base-300/10 sticky top-0 z-40 ">
       <div className="container mx-auto">
         <div className="flex flex-row  px-2 ">
           <Link
@@ -33,7 +35,7 @@ export default function Header() {
             }
           >
             <Home className="w-5 h-5" />
-            PROJECTSPro
+            ManageCo
           </Link>
         </div>
         <div className="flex flex-1 justify-end px-2">
@@ -86,27 +88,34 @@ export default function Header() {
                           </div>
                         )
                       }
+                      {
+                        session.user.role === "finance" && (
+                          <div className="badge badge-soft badge-primary text-white ml-2 flex">
+                             Finance Dept.<Image src={tick} height={25} width={25} alt="tick" />
+                          </div>
+                        )
+                      }
 
                       
                     </li>
                     <div className="divider my-1"></div>
 
-                    <li>
+                    {session.user.role === "sales" &&  <li>
                       <Link
                         href="/upload"
-                        className="px-4 py-2 hover:bg-base-200 block w-full"
+                        className="px-4 py-2 hover:bg-gray-700 transition-all duration-200 block w-full"
                         onClick={() =>
                           showNotification("Welcome to Upload", "info")
                         }
                       >
                         Report Upload
                       </Link>
-                    </li>
+                    </li>}
 
                     <li>
                       <Link
                         href={`/${session?.user.role}/dashboard`}
-                        className="px-4 py-2 hover:bg-base-200 block w-full"
+                        className="px-4 py-2 hover:bg-gray-700 block transition-all duration-200 w-full "
                         onClick={() =>
                           showNotification(`Welcome to ${session?.user.role} Dashboard`, "info")
                         }
@@ -121,7 +130,7 @@ export default function Header() {
                        <li>
                        <Link
                          href="/superadmindashboard"
-                         className="px-4 py-2 hover:bg-base-200 block w-full"
+                         className="px-4 py-2 hover:bg-base-200 block transition-all duration-200 w-full"
                          onClick={() =>
                            showNotification("Welcome to  Dashboard", "info")
                          }
@@ -134,17 +143,17 @@ export default function Header() {
                     <li>
                       <button
                         onClick={handleSignOut}
-                        className="px-4 py-2 text-error hover:bg-base-200 w-full text-left"
+                        className="px-4 py-2 text-error hover:bg-red-500/40 transition-all duration-200 w-full text-left"
                       >
                         Sign Out
                       </button>
                     </li>
                   </>
                 ) : (
-                  <li>
+                  <li className="overflow-hidden">
                     <Link
                       href="/login"
-                      className="px-4 py-2 hover:bg-base-200 block w-full"
+                      className="px-4 py-2 hover:bg-base-200 block transition-all duration-200 rounded-md w-full"
                       onClick={() =>
                         showNotification("Please sign in to continue", "info")
                       }
@@ -159,5 +168,7 @@ export default function Header() {
         </div>
       </div>
     </div>
+        </>
+
   );
 }

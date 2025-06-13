@@ -1,4 +1,5 @@
-import { useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useState } from "react";
 import { useForm, useFieldArray } from "react-hook-form";
 import {
   Loader2,
@@ -12,6 +13,7 @@ import {
 } from "lucide-react";
 import FileUpload from "./FileUpload";
 import { useNotification } from "./Notification";
+import { IReport } from "@/models/Report";
 
 interface Score {
   name: string;
@@ -21,7 +23,7 @@ interface Score {
   expectedRange?: [number, number];
   remarks?: string;
   relatedTo: string;
-  verdict:boolean;
+  verdict: boolean;
 }
 
 interface ReportFormData {
@@ -35,13 +37,59 @@ interface ReportFormData {
 interface TestOption {
   label: string;
   value: string;
+  suggestedBySales: boolean;
 }
 
+type TestResultInput = {
+  fileUrl?: string;
+  fileType?: string;
+  fileSize?: number;
+  imageKitFileId?: string;
+  score?: Array<{
+    name: string;
+    relatedTo: string;
+    value?: number | string;
+    unit?: string;
+    range?: [number, number];
+    expectedRange?: [number, number];
+    remarks?: string;
+    verdict: boolean;
+  }>;
+};
+
+const toTitleCase = (text: string) => {
+  return text
+    .toLowerCase()
+    .split(/\s+/)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+};
+
+const removeDuplicates = (options: TestOption[]) => {
+  const labelMap = new Map<string, TestOption>();
+
+  options.forEach((opt) => {
+    const key = opt.label.toLowerCase();
+    const existing = labelMap.get(key);
+
+    if (existing) {
+      existing.suggestedBySales =
+        existing.suggestedBySales || opt.suggestedBySales;
+    } else {
+      labelMap.set(key, { ...opt });
+    }
+  });
+
+  return Array.from(labelMap.values()).sort((a, b) => {
+    return Number(a.suggestedBySales) - Number(b.suggestedBySales);
+  });
+};
+
 export default function UploadVerdictForm({
-  reportId,
+  report,
   closeModal,
 }: {
-  reportId: string | undefined;
+  report: IReport | undefined;
   closeModal: () => void;
 }) {
   const [loading, setLoading] = useState(false);
@@ -49,17 +97,37 @@ export default function UploadVerdictForm({
   const { showNotification } = useNotification();
 
   const [TestOptions, setTestOptions] = useState<TestOption[]>([
-    { label: "Process", value: "Process" },
-    { label: "Strength", value: "Strength" },
-    { label: "Fastness", value: "Fastness" },
-    { label: "Longevity Test", value: "Longevity" },
-    { label: "Durability", value: "Durability" },
-    { label: "Battery Life Test", value: "Battery Life Test" },
-    { label: "Shelf life Test", value: "Shelf life" },
+    { label: "Process", value: "Process", suggestedBySales: false },
+    { label: "Strength", value: "Strength", suggestedBySales: false },
+    { label: "Fastness", value: "Fastness", suggestedBySales: false },
+    { label: "Longevity Test", value: "Longevity", suggestedBySales: false },
+    { label: "Durability", value: "Durability", suggestedBySales: false },
+    {
+      label: "Battery Life Test",
+      value: "Battery Life Test",
+      suggestedBySales: false,
+    },
+    { label: "Shelf life Test", value: "Shelf life", suggestedBySales: false },
+    {
+      label: "Core Function Test",
+      value: "Core Function Test",
+      suggestedBySales: false,
+    },
   ]);
 
   const [newTestCategory, setNewTestCategory] = useState("");
   const [selectedTests, setSelectedTests] = useState<TestOption[]>([]);
+
+  useEffect(() => {
+    if (!report?.testsToConduct) return;
+    const backendOptions: TestOption[] = report.testsToConduct.map((test) => {
+      const label = toTitleCase(test.trim());
+      return { label, value: label, suggestedBySales: true }; // using label as value for backend items
+    });
+
+    const merged = removeDuplicates([...TestOptions, ...backendOptions]);
+    setTestOptions(merged);
+  }, [report.testsToConduct]);
 
   const { register, handleSubmit, setValue, control, getValues } =
     useForm<ReportFormData>({
@@ -104,7 +172,7 @@ export default function UploadVerdictForm({
       if (indexToRemove !== -1) remove(indexToRemove);
     } else {
       setSelectedTests((prev) => [...prev, option]);
-      append({ name: option.label, relatedTo: option.value , verdict:true});
+      append({ name: option.label, relatedTo: option.value, verdict: true });
     }
   };
 
@@ -112,6 +180,7 @@ export default function UploadVerdictForm({
     const newCategory = {
       label: categoryName,
       value: categoryName.toLowerCase(),
+      suggestedBySales: false,
     };
     if (
       categoryName.trim() &&
@@ -119,13 +188,14 @@ export default function UploadVerdictForm({
     ) {
       setTestOptions((prev) => [...prev, newCategory]);
       setSelectedTests((prev) => [...prev, newCategory]);
-      append({ name: categoryName, relatedTo:categoryName, verdict:true });
+      append({ name: categoryName, relatedTo: categoryName, verdict: true });
+      console.log("test options: ", TestOptions);
       setNewTestCategory("");
     }
   };
 
   const onSubmit = async (data: ReportFormData) => {
-    if (!reportId) {
+    if (!report._id) {
       showNotification("Report ID is missing", "error");
       return;
     }
@@ -133,33 +203,73 @@ export default function UploadVerdictForm({
     try {
       setLoading(true);
 
-      if (data.fileUrl) {
-        const verdictRes = await fetch(
-          `/api/report/${reportId}/upload-verdict`,
-          {
-            method: "PATCH",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ ...data, id: reportId }),
-          }
-        );
-        if (!verdictRes.ok) throw new Error("Failed to upload verdict");
-      }
+      const validScores = data.score.filter((s) => s.name );
 
-      const validScores = data.score.filter((s) => s.name && s.value !== "");
-      if (validScores.length > 0) {
-        console.log("🚀 ~ onSubmit verdict ~ body:", ({ score: validScores }))
-        const scoreRes = await fetch(`/api/report/${reportId}/upload-score`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ score: validScores }),
-        });
-        if (!scoreRes.ok) throw new Error("Failed to upload test scores");
-      }
+      const hasFile =
+        data.fileUrl && data.fileType && data.fileSize && data.imageKitFileId;
+      const hasScore = validScores.length > 0;
 
-      if (!data.fileUrl && validScores.length === 0) {
+      if (!hasFile && !hasScore) {
         showNotification("Provide either file or test scores.", "warning");
         return;
       }
+
+      if (
+        hasFile &&
+        (!data.fileType || !data.fileSize || !data.imageKitFileId)
+      ) {
+        showNotification("Incomplete file information.", "warning");
+        return;
+      }
+
+      const payload: TestResultInput = {};
+
+      if (hasFile) {
+        payload.fileUrl = data.fileUrl;
+        payload.fileType = data.fileType;
+        payload.fileSize = data.fileSize;
+        payload.imageKitFileId = data.imageKitFileId;
+      }
+
+      if (hasScore) {
+        payload.score = validScores;
+      }
+
+      // if (data.fileUrl) {
+      //   const verdictRes = await fetch(
+      //     `/api/report/${report._id}/upload-verdict`,
+      //     {
+      //       method: "PATCH",
+      //       headers: { "Content-Type": "application/json" },
+      //       body: JSON.stringify({ ...data, id: report._id }),
+      //     }
+      //   );
+      //   if (!verdictRes.ok) throw new Error("Failed to upload verdict");
+      // }
+
+      // const validScores = data.score.filter((s) => s.name && s.value !== "");
+      // if (validScores.length > 0) {
+      //   console.log("🚀 ~ onSubmit verdict ~ body:", { score: validScores });
+      //   const scoreRes = await fetch(`/api/report/${report._id}/upload-verdict`, {
+      //     method: "PATCH",
+      //     headers: { "Content-Type": "application/json" },
+      //     body: JSON.stringify({ score: validScores }),
+      //   });
+      //   if (!scoreRes.ok) throw new Error("Failed to upload test scores");
+      // }
+
+      // if (!data.fileUrl && validScores.length === 0) {
+      //   showNotification("Provide either file or test scores.", "warning");
+      //   return;
+      // }
+
+      const res = await fetch(`/api/report/${report._id}/upload-verdict`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...payload, id: report._id }),
+      });
+
+      if (!res.ok) throw new Error("Failed to upload verdict");
 
       showNotification("Verdict uploaded successfully!", "success");
       closeModal();
@@ -175,6 +285,7 @@ export default function UploadVerdictForm({
       onSubmit={handleSubmit(onSubmit)}
       className="space-y-6 max-w-4xl mx-auto"
     >
+      <h1 className="font-bold">Test for Title: <span className="text-purple-400">{report.title}</span></h1>
       {/* Upload */}
       <div className="form-control">
         <label className="label text-lg font-semibold mb-2">
@@ -212,7 +323,14 @@ export default function UploadVerdictForm({
                   checked={selectedTests.some((t) => t.value === option.value)}
                   onChange={() => handleCheckboxChange(option)}
                 />
-                <span className="text-sm">{option.label}</span>
+                <span className="text-sm">
+                  {option.label}{" "}
+                  {option.suggestedBySales && (
+                    <span className="ml-1 italic px-2 py-0.5 bg-purple-500/40 rounded-md text-xs font-medium">
+                      Suggested
+                    </span>
+                  )}
+                </span>
               </label>
             ))}
           </div>
@@ -299,7 +417,12 @@ export default function UploadVerdictForm({
                   {/* Grid layout for fields */}
                   {/* Value */}
                   <div>
-                    <label className="label">Value</label>
+                    <label className="label">
+                      Value
+                      <em className="px-2 py-0.5 bg-yellow-500/80 rounded-md text-xs font-medium">
+                        Optional
+                      </em>
+                    </label>
                     <input
                       {...register(`score.${index}.value`)}
                       className="input input-bordered bg-gray-900 text-white w-full"
@@ -309,7 +432,12 @@ export default function UploadVerdictForm({
 
                   {/* Unit */}
                   <div>
-                    <label className="label">Unit (mg/L, %)</label>
+                    <label className="label">
+                      Unit (mg/L, %){" "}
+                      <em className="px-2 py-0.5 bg-yellow-500/80 rounded-md text-xs font-medium">
+                        Optional
+                      </em>
+                    </label>
                     <input
                       {...register(`score.${index}.unit`)}
                       className="input input-bordered bg-gray-900 text-white w-full"
@@ -319,7 +447,12 @@ export default function UploadVerdictForm({
 
                   {/* Range Min */}
                   <div>
-                    <label className="label">Range Min</label>
+                    <label className="label">
+                      Range Min{" "}
+                      <em className="px-2 py-0.5 bg-yellow-500/80 rounded-md text-xs font-medium">
+                        Optional
+                      </em>
+                    </label>
                     <input
                       {...register(`score.${index}.range.0`)}
                       type="number"
@@ -330,7 +463,12 @@ export default function UploadVerdictForm({
 
                   {/* Range Max */}
                   <div>
-                    <label className="label">Range Max</label>
+                    <label className="label">
+                      Range Max{" "}
+                      <em className="px-2 py-0.5 bg-yellow-500/80 rounded-md text-xs font-medium">
+                        Optional
+                      </em>
+                    </label>
                     <input
                       {...register(`score.${index}.range.1`)}
                       type="number"
@@ -343,7 +481,10 @@ export default function UploadVerdictForm({
                 {/* Remarks (full width) */}
                 <div className="mt-4">
                   <label className="label">
-                    Remarks <span className="text-white/40">(Optional)</span>
+                    Remarks{" "}
+                    <em className="px-2 py-0.5 bg-yellow-500/80 rounded-md text-xs font-medium">
+                      Optional
+                    </em>
                   </label>
                   <textarea
                     {...register(`score.${index}.remarks`)}
@@ -352,17 +493,16 @@ export default function UploadVerdictForm({
                   />
                 </div>
               </div>
-                <div className="col-span-full flex justify-end mb-2 mr-2">
-              <button
-                type="button"
-                className="btn btn-sm btn-outline text-red-500"
-                onClick={() => remove(index)}
-              >
-                Remove Test
-              </button>
+              <div className="col-span-full flex justify-end mb-2 mr-2">
+                <button
+                  type="button"
+                  className="btn btn-sm btn-outline text-red-500"
+                  onClick={() => remove(index)}
+                >
+                  Remove Test
+                </button>
+              </div>
             </div>
-            </div>
-            
           ))}
         </div>
       ) : (

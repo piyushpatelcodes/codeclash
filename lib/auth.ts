@@ -71,7 +71,7 @@ export const authOptions: NextAuthOptions = {
         async session({ session, token }) {
             if (session.user) {
                 session.user.id = token.id as string;
-                session.user.role = token.role as "superadmin" | "admin" | "labtester" | "sales"; // Include the role in the session
+                session.user.role = token.role as "superadmin" | "admin" | "labtester" | "sales" | "finance"; // Include the role in the session
                 session.user.domain = token.domain as string;
                 session.user.domainOwner = token.domainOwner as boolean;
                 session.user.authority = token.authority as string;

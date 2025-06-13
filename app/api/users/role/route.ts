@@ -15,7 +15,7 @@ export  async function GET() {
   const role = currentUser.role;
   if (
     !role ||
-    !["superadmin", "admin", "labtester", "sales"].includes(
+    !["superadmin", "admin", "labtester", "sales", "finance"].includes(
       role as string
     )
   ) {
@@ -27,8 +27,10 @@ export  async function GET() {
   if (role === 'sales') {
     allowedRoles = ['labtester',"sales"];  // Sales can only view lab users
   } else if (role === 'labtester') {
-    allowedRoles = ["sales","labtester"];  // Lab can only view admin users
+    allowedRoles = ["sales","labtester","admin","finance"];  // Lab can only view admin users
   } else if (role === 'admin') {
+    allowedRoles = ['labtester',"sales","admin","finance"];  // Admin can view LLL users (or any other role as needed)
+  } else if (role === 'finance') {
     allowedRoles = ['labtester',"sales","admin"];  // Admin can view LLL users (or any other role as needed)
   } else {
     return NextResponse.json({ message: 'Access denied: Unknown role' },{status:403});

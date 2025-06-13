@@ -6,7 +6,7 @@ declare module "next-auth" {
     user: {
       id: string;
       email: string;
-      role: "superadmin" | "admin" | "labtester" | "sales";
+      role: "superadmin" | "admin" | "labtester" | "sales" | "finance";
       authority: string | null;
       domain: string;
       domainOwner: boolean;
@@ -15,7 +15,7 @@ declare module "next-auth" {
   }
 
   interface User extends DefaultUser {
-    role: "superadmin" | "admin" | "labtester" | "sales";
+    role: "superadmin" | "admin" | "labtester" | "sales" | "finance";
     authority: string | null;
     domain: string;
     domainOwner: boolean;

@@ -34,6 +34,7 @@ export async function GET() {
         break;
 
       case "admin":
+      case "finance":
         // Admin sees reports uploaded by users under their authority (same domain + authority = their ID)
         const subUsers = await User.find({
           authority: currentUser.authority,
@@ -119,6 +120,7 @@ export async function POST(request: NextRequest) {
     };
 
     const newReport = await Report.create(reportData);
+    console.log("🚀 ~ POST ~ tets reportData:", reportData)
 
     // Return the created report
     return NextResponse.json(newReport, { status: 201 });

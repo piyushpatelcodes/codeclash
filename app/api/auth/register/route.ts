@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
       if (existingSuperAdmins === 0) {
         accountStatus = 'active'; 
       }
-    } else if (role === 'admin') {
+    } else if (role === 'admin' || role === "finance") {
       // Admin account needs approval from existing superadmin or admin in the domain
       accountStatus = 'pending';
     } else if (role === 'sales' || role === 'labtester') {

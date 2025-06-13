@@ -227,7 +227,7 @@ export default function ReportComponent({
       )}
        <Modal isOpen={isModalOpen} closeModal={closeModal}>
         <h2 className="text-xl font-semibold mb-4">Upload Test Result</h2>
-        <UploadVerdictForm reportId={report?._id?.toString() || undefined} closeModal={closeModal} />
+        {/* <UploadVerdictForm reportId={report?._id?.toString() || undefined} closeModal={closeModal} /> */}
       </Modal>
     </div>
   );

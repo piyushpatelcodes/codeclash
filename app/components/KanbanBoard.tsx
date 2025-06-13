@@ -465,7 +465,7 @@ useEffect(() => {
 
       // Optionally: persist status change to backend
       try {
-        await apiClient.updateStatus({ status: toColKey as "pending" | "reviewed" | "approved" | "RejectedByLab" | "RejectedByAdmin" }, movedTask._id);
+        await apiClient.updateStatus({ status: toColKey as "pending" | "reviewed" | "approved" | "ApprovedByFinance" | "RejectedByLab" | "RejectedByFinance" | "RejectedByAdmin" }, movedTask._id);
         console.log("Status updated!");
         showNotification("Status updated successfully!", "success");
       } catch (err) {
@@ -484,10 +484,10 @@ useEffect(() => {
         </span>
       </div>
       <DndContext
-        sensors={["admin", "labtester"].includes(userRole) ? sensors : undefined}
+        sensors={["admin", "labtester","finance"].includes(userRole) ? sensors : undefined}
         collisionDetection={closestCorners}
-        onDragStart={["admin", "labtester"].includes(userRole) ? handleDragStart : undefined}
-  onDragEnd={["admin", "labtester"].includes(userRole) ? handleDragEnd : undefined}
+        onDragStart={["admin", "labtester","finance"].includes(userRole) ? handleDragStart : undefined}
+  onDragEnd={["admin", "labtester","finance"].includes(userRole) ? handleDragEnd : undefined}
       >
         <div className="flex gap-6 overflow-x-auto">
           <SortableContext

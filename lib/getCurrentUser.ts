@@ -5,7 +5,7 @@ import { authOptions } from "./auth";
 export type SessionUser = {
   id: string;
   email: string;
-  role: "superadmin" | "admin" | "labtester" | "sales";
+  role: "superadmin" | "admin" | "labtester" | "sales" | "finance";
   domain: string;
   domainOwner: boolean;
   authority: string;

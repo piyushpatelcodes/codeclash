@@ -16,6 +16,7 @@ export default async function Sidebar() {
     { name: "All Projects Lists", active: true, url:`/${currentUser.role}/dashboard` },
     { name: "Kanban Board",url:`/${currentUser.role}/dashboard/kanban` },
     { name: "Timeline", url:`/${currentUser.role}/dashboard/timeline`},
+    { name: "Case Study", url:`/${currentUser.role}/dashboard/case-study`},
     
   ];
   return (
@@ -25,7 +26,7 @@ export default async function Sidebar() {
           {currentUser.email.charAt(0).toUpperCase()}
         </div>
         <div className="ml-3">
-          <div className="font-semibold text-gray-900 dark:text-gray-100">Manageko.</div>
+          <div className="font-semibold text-gray-900 dark:text-gray-100">ManageCo.</div>
           <div className="text-xs text-gray-400">{currentUser.email}</div>
         </div>
       </div>
@@ -52,7 +53,7 @@ export default async function Sidebar() {
         </div>
         <button className="w-full bg-indigo-600 text-white py-1 rounded hover:bg-indigo-700">Enable 2-step verification</button>
       </div>
-      <ClientSessionSetter currentUser={currentUser} />
+      {/* <ClientSessionSetter currentUser={currentUser} /> */}
     </aside>
   );
 }

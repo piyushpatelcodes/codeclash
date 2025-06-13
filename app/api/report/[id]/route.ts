@@ -1,11 +1,11 @@
-// pages/api/reports/[id].ts
-import mongoose from "mongoose";
+import mongoose, { ObjectId } from "mongoose";
 import Report from "../../../../models/Report"; 
 import { connectToDatabase } from "@/lib/db";
 import { validatePatchFields } from "@/middlewares/validatePatchFields";
 import { NextRequest, NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/getCurrentUser";
 import User from "@/models/User";
+import { Types } from "mongoose";
 import ImageKit from "imagekit";
 
 const imagekit = new ImageKit({
@@ -14,6 +14,8 @@ const imagekit = new ImageKit({
   urlEndpoint: process.env.NEXT_PUBLIC_URL_ENDPOINT!,
 });
 
+
+// currently i can either delete similar report id or i can add/update data in report  because i am returing after deleteing similar report id 
 export async function PATCH(req: NextRequest) {
   const validation = await validatePatchFields(req);
   if ("error" in validation) return validation.error;
@@ -28,6 +30,46 @@ export async function PATCH(req: NextRequest) {
 
   try {
     await connectToDatabase();
+    const { similarReportIdsForDelete } = body; 
+
+    if (similarReportIdsForDelete && Array.isArray(similarReportIdsForDelete)) {
+      const invalidIds = similarReportIdsForDelete.filter(
+        (id: string) => !mongoose.Types.ObjectId.isValid(id)
+      );
+
+      if (invalidIds.length > 0) {
+        return NextResponse.json(
+          { message: "Invalid similar report IDs" },
+          { status: 400 }
+        );
+      }
+
+      const updatedReport = await Report.findByIdAndUpdate(
+        id,
+        { $pullAll: { similarTo: similarReportIdsForDelete.map((reportId: string) => new Types.ObjectId(reportId)) } },
+        { new: true }
+      ) .populate("uploadedBy", "email role domain") // Optional: populate uploader
+      .populate("sharedWith", "email role") // Optional: populate shared users
+      .populate("testResults.uploadedBy", "email role")
+      .populate({
+        path: "similarTo",
+        select:
+          "_id title description tags status fileUrl fileType fileSize createdAt uploadedBy",
+        populate: {
+          path: "uploadedBy",
+          select: "email role",
+        },
+      })
+      .sort({ createdAt: -1 })
+      .lean();
+
+      if (!updatedReport) {
+        return NextResponse.json({ error: "Failed to delete similar report" }, { status: 500 });
+      }
+
+      return NextResponse.json(updatedReport, { status: 200 });
+    }
+
     const updated = await Report.findByIdAndUpdate(id, body, { new: true });
     return NextResponse.json(updated);
   } catch (err) {
@@ -106,5 +148,51 @@ export async function DELETE(req: NextRequest) {
 
   } catch (error) {
     return NextResponse.json({ error: error }, { status: 500 });
+  }
+}
+
+
+export async function GET(
+  req: NextRequest 
+) {
+   try {
+    await connectToDatabase();
+
+    const currentUser = await getCurrentUser();
+
+    if (!currentUser) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
+    }
+
+  const url = new URL(req.url);
+  const pathnameParts = url.pathname.split('/');
+  const id = pathnameParts[pathnameParts.length - 1];
+
+    if (!id || !Types.ObjectId.isValid(id)) {
+      return NextResponse.json({ error: "Invalid or missing reportId" }, { status: 400 });
+    }
+
+    const report = await Report.findById(id)
+      .populate("uploadedBy", "email role domain")  
+      .populate("sharedWith", "email role")        
+      .populate("testResults.uploadedBy", "email role") 
+      .populate({
+        path: "similarTo",
+        select: "_id title description tags status fileUrl fileType fileSize createdAt uploadedBy",
+        populate: {
+          path: "uploadedBy",
+          select: "email role",
+        },
+      })
+      .lean();  
+
+    if (!report) {
+      return NextResponse.json({ error: "Report not found" }, { status: 404 });
+    }
+
+    return NextResponse.json(report, { status: 200 });
+  } catch (error) {
+    console.error("Error fetching report by id:", error instanceof Error ? error.message : error);
+    return NextResponse.json({ error: "Failed to fetch report by id" }, { status: 500 });
   }
 }

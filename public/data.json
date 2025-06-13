@@ -1,0 +1,5944 @@
+[
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17634c" },
+    "title": "Plant Growing Kit",
+    "description": "Complete kit for growing herbs indoors.",
+    "tags": ["tag2", "tag9", "tag6", "tag7", "tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17634d" },
+    "fileUrl": "http://dummyimage.com/204x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17634e" },
+      { "$oid": "684ad49cfc13ae5b4e17634f" },
+      { "$oid": "684ad49cfc13ae5b4e176350" },
+      { "$oid": "684ad49cfc13ae5b4e176351" },
+      { "$oid": "684ad49cfc13ae5b4e176352" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Falco mexicanus", "relatedTo": "game", "verdict": false },
+          {
+            "name": "Loris tardigratus",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          { "name": "Procyon lotor", "relatedTo": "player", "verdict": true },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "coach",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Chlamydosaurus kingii",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Dasypus septemcincus",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Cyrtodactylus louisiadensis",
+            "relatedTo": "fan",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Acridotheres tristis",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          {
+            "name": "Papio cynocephalus",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Ictonyx striatus",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Phascogale calura",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176353" },
+    "title": "Marinara Parmesan Baked Ziti",
+    "description": "Ziti pasta baked with marinara and parmesan cheese",
+    "tags": ["tag3", "tag9", "tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176354" },
+    "fileUrl": "http://dummyimage.com/118x100.png/5fa2dd/ffffff",
+    "similarTo": [],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Rhabdomys pumilio",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Macropus rufogriseus",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Varanus salvator",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Varanus komodensis",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Haliaetus leucogaster",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "game",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176355" },
+    "title": "Puff Pastry",
+    "description": "Versatile puff pastry for pies and pastries.",
+    "tags": ["tag3", "tag2", "tag10", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176356" },
+    "fileUrl": "http://dummyimage.com/152x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176357" },
+      { "$oid": "684ad49cfc13ae5b4e176358" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176359" },
+    "title": "Garlic Parmesan Wings",
+    "description": "Frozen chicken wings with garlic parmesan sauce.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17635a" },
+    "fileUrl": "http://dummyimage.com/135x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17635b" },
+      { "$oid": "684ad49cfc13ae5b4e17635c" },
+      { "$oid": "684ad49cfc13ae5b4e17635d" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Felis silvestris lybica",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Colobus guerza",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Grus rubicundus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Equus burchelli", "relatedTo": "team", "verdict": true },
+          {
+            "name": "Spermophilus tridecemlineatus",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Isoodon obesulus", "relatedTo": "fan", "verdict": false },
+          {
+            "name": "Ctenophorus ornatus",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Felis caracal", "relatedTo": "team", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17635e" },
+    "title": "Portable Pet Pooper Scooper",
+    "description": "Compact scooper for easy waste clean-up during walks.",
+    "tags": ["tag1", "tag9"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17635f" },
+    "fileUrl": "http://dummyimage.com/235x100.png/cc0000/ffffff",
+    "similarTo": [],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Cracticus nigroagularis",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Bubalus arnee", "relatedTo": "fan", "verdict": false },
+          {
+            "name": "Hymenolaimus malacorhynchus",
+            "relatedTo": "fan",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176360" },
+    "title": "LED Desk Lamp with USB Charging",
+    "description": "Stylish desk lamp featuring a USB charging port.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176361" },
+    "fileUrl": "http://dummyimage.com/201x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176362" },
+      { "$oid": "684ad49cfc13ae5b4e176363" },
+      { "$oid": "684ad49cfc13ae5b4e176364" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Didelphis virginiana",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Pycnonotus nigricans",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Fregata magnificans", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cordylus giganteus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Graspus graspus", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Anas platyrhynchos",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176365" },
+    "title": "Comfy Slippers",
+    "description": "Soft and cozy slippers for indoor wear.",
+    "tags": ["tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176366" },
+    "fileUrl": "http://dummyimage.com/148x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176367" },
+      { "$oid": "684ad49cfc13ae5b4e176368" },
+      { "$oid": "684ad49cfc13ae5b4e176369" },
+      { "$oid": "684ad49cfc13ae5b4e17636a" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Antilope cervicapra",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Snycerus caffer", "relatedTo": "team", "verdict": true },
+          { "name": "Manouria emys", "relatedTo": "coach", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Manouria emys",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17636b" },
+    "title": "Cocoa Powder",
+    "description": "Rich cocoa powder for baking and chocolate recipes.",
+    "tags": ["tag2", "tag10"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17636c" },
+    "fileUrl": "http://dummyimage.com/165x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17636d" },
+      { "$oid": "684ad49cfc13ae5b4e17636e" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Canis aureus", "relatedTo": "referee", "verdict": true },
+          {
+            "name": "Bubalornis niger",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17636f" },
+    "title": "Peach Fruit Cups",
+    "description": "Juicy peach slices in light syrup, in convenient cups.",
+    "tags": ["tag10", "tag6", "tag8", "tag2"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176370" },
+    "fileUrl": "http://dummyimage.com/190x100.png/cc0000/ffffff",
+    "similarTo": [],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Zenaida asiatica",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Acanthaster planci",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Macaca nemestrina",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Oryx gazella callotis",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Macropus rufogriseus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Spizaetus coronatus",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Bucephala clangula", "relatedTo": "game", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Ratufa indica", "relatedTo": "referee", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176371" },
+    "title": "BBQ Lentil Chips",
+    "description": "Savory lentil chips with BBQ flavor",
+    "tags": ["tag8", "tag6", "tag10", "tag5", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176372" },
+    "fileUrl": "http://dummyimage.com/205x100.png/5fa2dd/ffffff",
+    "similarTo": [],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Aonyx cinerea",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Canis aureus",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Phalaropus fulicarius",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Ovis canadensis",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Castor canadensis",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Chamaelo sp.", "relatedTo": "team", "verdict": true },
+          {
+            "name": "Tetracerus quadricornis",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Dusicyon thous",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Agama sp.", "relatedTo": "player", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176373" },
+    "title": "Electric Meat Grinder",
+    "description": "Powerful grinder for making sausage and burgers at home.",
+    "tags": ["tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176374" },
+    "fileUrl": "http://dummyimage.com/218x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176375" },
+      { "$oid": "684ad49cfc13ae5b4e176376" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Diomedea irrorata",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          { "name": "Ara ararauna", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Macropus rufogriseus",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Corvus albicollis",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Bubo sp.", "relatedTo": "championship", "verdict": true },
+          {
+            "name": "Cracticus nigroagularis",
+            "relatedTo": "fan",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Eunectes sp.", "relatedTo": "player", "verdict": true },
+          {
+            "name": "Oncorhynchus nerka",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Cacatua galerita",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Anas punctata", "relatedTo": "player", "verdict": false },
+          {
+            "name": "Meles meles",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176377" },
+    "title": "Self-Stirring Mug",
+    "description": "Automated stirring for your drinks with just a press of a button.",
+    "tags": ["tag2", "tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176378" },
+    "fileUrl": "http://dummyimage.com/246x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176379" },
+      { "$oid": "684ad49cfc13ae5b4e17637a" },
+      { "$oid": "684ad49cfc13ae5b4e17637b" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Crotalus cerastes",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Zosterops pallidus",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Choriotis kori",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Equus hemionus", "relatedTo": "coach", "verdict": false },
+          {
+            "name": "Pteropus rufus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Centrocercus urophasianus",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Kobus defassa", "relatedTo": "fan", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Semnopithecus entellus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Ateles paniscus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17637c" },
+    "title": "Thyme",
+    "description": "Fresh thyme, perfect for seasoning dishes.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17637d" },
+    "fileUrl": "http://dummyimage.com/113x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17637e" },
+      { "$oid": "684ad49cfc13ae5b4e17637f" },
+      { "$oid": "684ad49cfc13ae5b4e176380" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Fregata magnificans",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Ploceus rubiginosus",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Taurotagus oryx",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          { "name": "unavailable", "relatedTo": "trophy", "verdict": false }
+        ]
+      },
+      {
+        "score": [{ "name": "Axis axis", "relatedTo": "game", "verdict": true }]
+      },
+      {
+        "score": [
+          {
+            "name": "Bassariscus astutus",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Tragelaphus scriptus",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Tachyglossus aculeatus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Papio cynocephalus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176381" },
+    "title": "Garlic Breadsticks",
+    "description": "Ready-to-bake garlic breadsticks, perfect with pasta dishes.",
+    "tags": ["tag6", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176382" },
+    "fileUrl": "http://dummyimage.com/154x100.png/cc0000/ffffff",
+    "similarTo": [],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Camelus dromedarius",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Varanus sp.", "relatedTo": "player", "verdict": false },
+          {
+            "name": "Procyon lotor",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Platalea leucordia", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Coluber constrictor",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Cereopsis novaehollandiae",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Spermophilus lateralis",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Paraxerus cepapi", "relatedTo": "trophy", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Aonyx capensis", "relatedTo": "player", "verdict": true },
+          { "name": "Sula dactylatra", "relatedTo": "fan", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176383" },
+    "title": "Insulated Sport Tumbler",
+    "description": "Vacuum-insulated tumbler for beverages on the go.",
+    "tags": ["tag2", "tag7", "tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176384" },
+    "fileUrl": "http://dummyimage.com/127x100.png/5fa2dd/ffffff",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e176385" }],
+    "status": "approved",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176386" },
+    "title": "Vegan Taco Seasoning",
+    "description": "Spice blend for creating flavorful vegan taco filling.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176387" },
+    "fileUrl": "http://dummyimage.com/190x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176388" },
+      { "$oid": "684ad49cfc13ae5b4e176389" },
+      { "$oid": "684ad49cfc13ae5b4e17638a" },
+      { "$oid": "684ad49cfc13ae5b4e17638b" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Spermophilus armatus",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          {
+            "name": "Centrocercus urophasianus",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Crotaphytus collaris",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Hyaena brunnea", "relatedTo": "team", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Pitangus sulphuratus",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Sarcophilus harrisii",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Myrmecobius fasciatus",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17638c" },
+    "title": "Portable Projector",
+    "description": "Compact projector for movies and presentations on the go.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17638d" },
+    "fileUrl": "http://dummyimage.com/167x100.png/5fa2dd/ffffff",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e17638e" }],
+    "status": "RejectedByLab",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17638f" },
+    "title": "Glass Water Bottle",
+    "description": "Borosilicate glass water bottle with silicone sleeve.",
+    "tags": ["tag10", "tag9"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176390" },
+    "fileUrl": "http://dummyimage.com/194x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176391" },
+      { "$oid": "684ad49cfc13ae5b4e176392" },
+      { "$oid": "684ad49cfc13ae5b4e176393" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Acrantophis madagascariensis",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Lasiodora parahybana",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Varanus albigularis",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176394" },
+    "title": "Kale Chips",
+    "description": "Healthy, crunchy kale chips, a nutritious snack.",
+    "tags": ["tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176395" },
+    "fileUrl": "http://dummyimage.com/241x100.png/cc0000/ffffff",
+    "similarTo": [],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Haliaeetus leucocephalus",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Cordylus giganteus",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Deroptyus accipitrinus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Merops nubicus", "relatedTo": "team", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Macropus rufogriseus",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Sitta canadensis",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Potos flavus", "relatedTo": "opponent", "verdict": true },
+          { "name": "Paraxerus cepapi", "relatedTo": "game", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Eubalaena australis",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Phoca vitulina", "relatedTo": "coach", "verdict": false },
+          {
+            "name": "Macropus rufogriseus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Otaria flavescens",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Semnopithecus entellus",
+            "relatedTo": "fan",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Nyctanassa violacea",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Sciurus vulgaris",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Certotrichas paena",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Salvadora hexalepis",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          { "name": "Oreamnos americanus", "relatedTo": "fan", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176396" },
+    "title": "Sporty Slide Sandals",
+    "description": "Comfortable slide sandals for lounging by the pool.",
+    "tags": ["tag1", "tag9", "tag5", "tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176397" },
+    "fileUrl": "http://dummyimage.com/237x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176398" },
+      { "$oid": "684ad49cfc13ae5b4e176399" },
+      { "$oid": "684ad49cfc13ae5b4e17639a" },
+      { "$oid": "684ad49cfc13ae5b4e17639b" },
+      { "$oid": "684ad49cfc13ae5b4e17639c" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Pan troglodytes", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Fregata magnificans",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          { "name": "Paraxerus cepapi", "relatedTo": "team", "verdict": true },
+          { "name": "Delphinus delphis", "relatedTo": "team", "verdict": true },
+          { "name": "Kobus defassa", "relatedTo": "game", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Meles meles",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Castor canadensis", "relatedTo": "game", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17639d" },
+    "title": "Honey Mustard Sauce",
+    "description": "Creamy honey mustard sauce for dipping or dressing.",
+    "tags": ["tag9"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17639e" },
+    "fileUrl": "http://dummyimage.com/247x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17639f" },
+      { "$oid": "684ad49cfc13ae5b4e1763a0" },
+      { "$oid": "684ad49cfc13ae5b4e1763a1" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Crotalus triseriatus",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Echimys chrysurus",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Ratufa indica", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Lamprotornis chalybaeus",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Ninox superciliaris",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Pelecanus conspicillatus",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Lycaon pictus", "relatedTo": "trophy", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763a2" },
+    "title": "Plant-Based Cookbook",
+    "description": "Delicious recipes focusing on plant-based ingredients.",
+    "tags": ["tag8", "tag3", "tag2"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763a3" },
+    "fileUrl": "http://dummyimage.com/236x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763a4" },
+      { "$oid": "684ad49cfc13ae5b4e1763a5" },
+      { "$oid": "684ad49cfc13ae5b4e1763a6" },
+      { "$oid": "684ad49cfc13ae5b4e1763a7" },
+      { "$oid": "684ad49cfc13ae5b4e1763a8" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Otaria flavescens",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Ardea golieth", "relatedTo": "player", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Balearica pavonina", "relatedTo": "fan", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763a9" },
+    "title": "Coffee Capsule Dispenser",
+    "description": "Organize coffee capsules with this stylish dispenser.",
+    "tags": ["tag9", "tag10", "tag1", "tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763aa" },
+    "fileUrl": "http://dummyimage.com/216x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763ab" },
+      { "$oid": "684ad49cfc13ae5b4e1763ac" },
+      { "$oid": "684ad49cfc13ae5b4e1763ad" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Larus fuliginosus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "unavailable", "relatedTo": "referee", "verdict": false },
+          { "name": "Pavo cristatus", "relatedTo": "player", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Macaca radiata", "relatedTo": "fan", "verdict": true },
+          { "name": "Lybius torquatus", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Nasua nasua", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Sterna paradisaea",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Rhea americana", "relatedTo": "coach", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Uraeginthus granatina",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Bugeranus caruncalatus",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Felis serval",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "unavailable",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Falco peregrinus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Ara macao", "relatedTo": "opponent", "verdict": false },
+          {
+            "name": "Tockus flavirostris",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763ae" },
+    "title": "Dishwasher Safe Cutting Board",
+    "description": "Eco-friendly cutting board that is safe for dishwashers.",
+    "tags": ["tag1", "tag9", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763af" },
+    "fileUrl": "http://dummyimage.com/225x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763b0" },
+      { "$oid": "684ad49cfc13ae5b4e1763b1" },
+      { "$oid": "684ad49cfc13ae5b4e1763b2" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Zalophus californicus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Crocuta crocuta",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Corythornis cristata",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Erethizon dorsatum",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Mazama gouazoubira",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Pseudocheirus peregrinus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Anser caerulescens",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Crotalus adamanteus",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Ramphastos tucanus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Ephippiorhynchus mycteria",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Ratufa indica", "relatedTo": "trophy", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763b3" },
+    "title": "Chickpea Pasta",
+    "description": "Healthy pasta alternative made from chickpeas",
+    "tags": ["tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763b4" },
+    "fileUrl": "http://dummyimage.com/243x100.png/5fa2dd/ffffff",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e1763b5" }],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Francolinus coqui",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763b6" },
+    "title": "Roasted Red Pepper Sauce",
+    "description": "Savory sauce perfect for pasta or dipping.",
+    "tags": ["tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763b7" },
+    "fileUrl": "http://dummyimage.com/106x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763b8" },
+      { "$oid": "684ad49cfc13ae5b4e1763b9" },
+      { "$oid": "684ad49cfc13ae5b4e1763ba" },
+      { "$oid": "684ad49cfc13ae5b4e1763bb" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Graspus graspus", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Phalacrocorax albiventer",
+            "relatedTo": "coach",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Canis aureus", "relatedTo": "game", "verdict": false },
+          { "name": "Tadorna tadorna", "relatedTo": "fan", "verdict": false },
+          {
+            "name": "Anastomus oscitans",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Ovis ammon", "relatedTo": "trophy", "verdict": true },
+          {
+            "name": "Phalacrocorax niger",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Ovis canadensis", "relatedTo": "game", "verdict": true },
+          { "name": "Sciurus vulgaris", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Buteo galapagoensis",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          { "name": "unavailable", "relatedTo": "referee", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763bc" },
+    "title": "Smartphone Stand",
+    "description": "Adjustable stand for smartphones and tablets.",
+    "tags": ["tag2", "tag6", "tag5", "tag3", "tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763bd" },
+    "fileUrl": "http://dummyimage.com/205x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763be" },
+      { "$oid": "684ad49cfc13ae5b4e1763bf" },
+      { "$oid": "684ad49cfc13ae5b4e1763c0" },
+      { "$oid": "684ad49cfc13ae5b4e1763c1" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Neotis denhami", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Corvus albicollis",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Mazama gouazoubira",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Macropus rufus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Varanus salvator", "relatedTo": "fan", "verdict": false },
+          {
+            "name": "Zalophus californicus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Dromaeus novaehollandiae",
+            "relatedTo": "fan",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Propithecus verreauxi",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Recurvirostra avosetta",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Phoenicopterus ruber",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Butorides striatus",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763c2" },
+    "title": "Teriyaki Chicken Bowl",
+    "description": "Ready-to-eat chicken bowl with teriyaki sauce and rice.",
+    "tags": ["tag5"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763c3" },
+    "fileUrl": "http://dummyimage.com/249x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763c4" },
+      { "$oid": "684ad49cfc13ae5b4e1763c5" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Tauraco porphyrelophus",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Papilio canadensis",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Petaurus breviceps",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Sarkidornis melanotos",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Hymenolaimus malacorhynchus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Myiarchus tuberculifer",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Buteo galapagoensis",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Gabianus pacificus",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Choloepus hoffmani",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Paroaria gularis",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Kobus defassa", "relatedTo": "coach", "verdict": false },
+          { "name": "Bos taurus", "relatedTo": "opponent", "verdict": true },
+          {
+            "name": "Papio cynocephalus",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Antechinus flavipes",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Corvus brachyrhynchos",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Zenaida asiatica",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Nasua nasua",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763c6" },
+    "title": "Harvest Grain Salad",
+    "description": "A hearty salad with grains, dried fruits, and nuts.",
+    "tags": ["tag6", "tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763c7" },
+    "fileUrl": "http://dummyimage.com/203x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763c8" },
+      { "$oid": "684ad49cfc13ae5b4e1763c9" },
+      { "$oid": "684ad49cfc13ae5b4e1763ca" },
+      { "$oid": "684ad49cfc13ae5b4e1763cb" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763cc" },
+    "title": "Bamboo Bathtub Caddy",
+    "description": "Expandable caddy for holding books, phones, and snacks while in the bath.",
+    "tags": ["tag5"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763cd" },
+    "fileUrl": "http://dummyimage.com/178x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763ce" },
+      { "$oid": "684ad49cfc13ae5b4e1763cf" },
+      { "$oid": "684ad49cfc13ae5b4e1763d0" },
+      { "$oid": "684ad49cfc13ae5b4e1763d1" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Oxybelis fulgidus",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Ursus arctos", "relatedTo": "opponent", "verdict": false },
+          { "name": "Casmerodius albus", "relatedTo": "game", "verdict": true },
+          { "name": "Lepus townsendii", "relatedTo": "fan", "verdict": true },
+          { "name": "Tapirus terrestris", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Sus scrofa", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Ursus americanus",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Phalacrocorax brasilianus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Bison bison", "relatedTo": "referee", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Fratercula corniculata",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Naja haje", "relatedTo": "player", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lycaon pictus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Balearica pavonina",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Dicrurus adsimilis",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Lama glama", "relatedTo": "trophy", "verdict": false },
+          {
+            "name": "Limosa haemastica",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763d2" },
+    "title": "Screen Cleaning Kit",
+    "description": "Safe cleaning solution and tools for electronics screens.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763d3" },
+    "fileUrl": "http://dummyimage.com/197x100.png/cc0000/ffffff",
+    "similarTo": [],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Leprocaulinus vipera",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Tyto novaehollandiae",
+            "relatedTo": "fan",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lorythaixoides concolor",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Ursus maritimus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Butorides striatus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Pseudalopex gymnocercus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Myrmecophaga tridactyla",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Perameles nasuta",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Uraeginthus angolensis",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Carphophis sp.",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Macaca mulatta",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Neotis denhami", "relatedTo": "trophy", "verdict": true },
+          { "name": "Gazella granti", "relatedTo": "game", "verdict": false },
+          {
+            "name": "Eolophus roseicapillus",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763d4" },
+    "title": "Paprika",
+    "description": "Rich and sweet paprika spice for seasoning.",
+    "tags": ["tag4", "tag8", "tag2", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763d5" },
+    "fileUrl": "http://dummyimage.com/162x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763d6" },
+      { "$oid": "684ad49cfc13ae5b4e1763d7" },
+      { "$oid": "684ad49cfc13ae5b4e1763d8" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Cynomys ludovicianus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Bubalornis niger", "relatedTo": "trophy", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763d9" },
+    "title": "Homemade Salsa",
+    "description": "Fresh salsa made with tomatoes, onions, and cilantro.",
+    "tags": ["tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763da" },
+    "fileUrl": "http://dummyimage.com/136x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763db" },
+      { "$oid": "684ad49cfc13ae5b4e1763dc" },
+      { "$oid": "684ad49cfc13ae5b4e1763dd" },
+      { "$oid": "684ad49cfc13ae5b4e1763de" },
+      { "$oid": "684ad49cfc13ae5b4e1763df" }
+    ],
+    "status": "pending",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763e0" },
+    "title": "Lightweight Backpacking Tent",
+    "description": "Easy-to-set up tent designed for campers and hikers.",
+    "tags": ["tag9"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763e1" },
+    "fileUrl": "http://dummyimage.com/199x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763e2" },
+      { "$oid": "684ad49cfc13ae5b4e1763e3" },
+      { "$oid": "684ad49cfc13ae5b4e1763e4" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Zalophus californicus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          { "name": "Vulpes chama", "relatedTo": "referee", "verdict": true },
+          {
+            "name": "Damaliscus dorcas",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          { "name": "Equus burchelli", "relatedTo": "team", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Uraeginthus granatina",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Uraeginthus angolensis",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Megaderma spasma",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Zosterops pallidus",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Anser anser",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Procyon lotor",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Bubalus arnee", "relatedTo": "coach", "verdict": true },
+          { "name": "Boa caninus", "relatedTo": "player", "verdict": false },
+          {
+            "name": "Ceratotherium simum",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763e5" },
+    "title": "Knitted Infinity Scarf",
+    "description": "A warm knitted scarf to keep you cozy in winter.",
+    "tags": ["tag7", "tag10", "tag9", "tag5", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763e6" },
+    "fileUrl": "http://dummyimage.com/207x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763e7" },
+      { "$oid": "684ad49cfc13ae5b4e1763e8" }
+    ],
+    "status": "reviewed",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763e9" },
+    "title": "Adjustable Standing Desk",
+    "description": "Ergonomic desk that adjusts height for standing or sitting.",
+    "tags": ["tag10", "tag5", "tag4", "tag8"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763ea" },
+    "fileUrl": "http://dummyimage.com/214x100.png/dddddd/000000",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e1763eb" }],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Petaurus norfolcensis",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Tenrec ecaudatus",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763ec" },
+    "title": "Portable Bluetooth Keyboard",
+    "description": "Compact keyboard for tablets and smartphones.",
+    "tags": ["tag8"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763ed" },
+    "fileUrl": "http://dummyimage.com/215x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763ee" },
+      { "$oid": "684ad49cfc13ae5b4e1763ef" },
+      { "$oid": "684ad49cfc13ae5b4e1763f0" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Vulpes chama", "relatedTo": "referee", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Amphibolurus barbatus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Lorythaixoides concolor",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          { "name": "Equus burchelli", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Phalaropus lobatus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Macropus agilis", "relatedTo": "team", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cereopsis novaehollandiae",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Butorides striatus",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Lutra canadensis",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Ara macao", "relatedTo": "trophy", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Thamnolaea cinnmomeiventris",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Trichoglossus chlorolepidotus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Cordylus giganteus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Echimys chrysurus",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Macropus parryi", "relatedTo": "game", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763f1" },
+    "title": "Car Windshield Sun Shade",
+    "description": "Protects car interior from sun damage and heat.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763f2" },
+    "fileUrl": "http://dummyimage.com/147x100.png/dddddd/000000",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e1763f3" }],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Oreamnos americanus",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          { "name": "Macaca fuscata", "relatedTo": "coach", "verdict": true },
+          {
+            "name": "Colobus guerza",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Felis chaus", "relatedTo": "coach", "verdict": false },
+          {
+            "name": "Eubalaena australis",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Leipoa ocellata",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          { "name": "Crocuta crocuta", "relatedTo": "game", "verdict": false },
+          { "name": "Oxybelis fulgidus", "relatedTo": "game", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Mabuya spilogaster",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Castor canadensis",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          { "name": "Nyctea scandiaca", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Sitta canadensis",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Phalacrocorax niger",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Bubo sp.", "relatedTo": "player", "verdict": false },
+          {
+            "name": "Limosa haemastica",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Cercatetus concinnus",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Leptoptilus dubius",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "game",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763f4" },
+    "title": "Silicone Wine Glasses",
+    "description": "Durable and shatterproof silicone glasses for outdoor use.",
+    "tags": ["tag9", "tag3", "tag4", "tag10"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763f5" },
+    "fileUrl": "http://dummyimage.com/141x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763f6" },
+      { "$oid": "684ad49cfc13ae5b4e1763f7" },
+      { "$oid": "684ad49cfc13ae5b4e1763f8" },
+      { "$oid": "684ad49cfc13ae5b4e1763f9" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Spizaetus coronatus",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Drymarchon corias couperi",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          { "name": "Pytilia melba", "relatedTo": "game", "verdict": false },
+          { "name": "Colobus guerza", "relatedTo": "referee", "verdict": true },
+          { "name": "Graspus graspus", "relatedTo": "coach", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Cebus apella", "relatedTo": "coach", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1763fa" },
+    "title": "Pepper Jack Cheese Sticks",
+    "description": "A spicy, flavorful cheese stick great for snacks or lunchboxes.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1763fb" },
+    "fileUrl": "http://dummyimage.com/188x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1763fc" },
+      { "$oid": "684ad49cfc13ae5b4e1763fd" },
+      { "$oid": "684ad49cfc13ae5b4e1763fe" },
+      { "$oid": "684ad49cfc13ae5b4e1763ff" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Semnopithecus entellus",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Lasiodora parahybana",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Crotalus adamanteus",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Geochelone elephantopus",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Pycnonotus nigricans",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Dicrostonyx groenlandicus",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          { "name": "Gorilla gorilla", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Tamiasciurus hudsonicus",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Equus hemionus", "relatedTo": "player", "verdict": false },
+          { "name": "Paraxerus cepapi", "relatedTo": "fan", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Hymenolaimus malacorhynchus",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Eumetopias jubatus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176400" },
+    "title": "Handheld Vacuum",
+    "description": "Cordless handheld vacuum for quick cleanups.",
+    "tags": ["tag9", "tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176401" },
+    "fileUrl": "http://dummyimage.com/193x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176402" },
+      { "$oid": "684ad49cfc13ae5b4e176403" },
+      { "$oid": "684ad49cfc13ae5b4e176404" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Axis axis", "relatedTo": "fan", "verdict": true },
+          { "name": "Taurotagus oryx", "relatedTo": "player", "verdict": true },
+          {
+            "name": "Thalasseus maximus",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Diomedea irrorata",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Zosterops pallidus",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Nyctanassa violacea",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          { "name": "Rhea americana", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Aegypius occipitalis",
+            "relatedTo": "coach",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tyto novaehollandiae",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Dendrocitta vagabunda",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Naja haje", "relatedTo": "referee", "verdict": true },
+          { "name": "Choriotis kori", "relatedTo": "game", "verdict": true },
+          { "name": "Alopex lagopus", "relatedTo": "coach", "verdict": false },
+          {
+            "name": "Dendrocitta vagabunda",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tachybaptus ruficollis",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Gymnorhina tibicen",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Vanellus armatus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Oncorhynchus nerka",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Ephippiorhynchus mycteria",
+            "relatedTo": "game",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176405" },
+    "title": "Basketball",
+    "description": "Official size basketball for indoor and outdoor play.",
+    "tags": ["tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176406" },
+    "fileUrl": "http://dummyimage.com/236x100.png/dddddd/000000",
+    "similarTo": [],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Cebus apella", "relatedTo": "trophy", "verdict": true },
+          {
+            "name": "Phalacrocorax varius",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Phalacrocorax carbo",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Cyrtodactylus louisiadensis",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Sciurus vulgaris",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lutra canadensis",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Trichoglossus chlorolepidotus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Butorides striatus",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Cebus apella", "relatedTo": "player", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tiliqua scincoides",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Vanellus chilensis",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Stenella coeruleoalba",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Bassariscus astutus", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Fregata magnificans",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Neotis denhami", "relatedTo": "team", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176407" },
+    "title": "Beef Jerky",
+    "description": "Savory, protein-rich beef jerky for on-the-go snacking.",
+    "tags": ["tag10", "tag5", "tag4", "tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176408" },
+    "fileUrl": "http://dummyimage.com/141x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176409" },
+      { "$oid": "684ad49cfc13ae5b4e17640a" },
+      { "$oid": "684ad49cfc13ae5b4e17640b" },
+      { "$oid": "684ad49cfc13ae5b4e17640c" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Semnopithecus entellus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          { "name": "unavailable", "relatedTo": "player", "verdict": false },
+          {
+            "name": "Zonotrichia capensis",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Thamnolaea cinnmomeiventris",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          { "name": "Panthera leo", "relatedTo": "game", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Varanus komodensis",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Haliaetus vocifer",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Macropus robustus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Threskionis aethiopicus",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Alouatta seniculus", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Haematopus ater",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17640d" },
+    "title": "Cinnamon Roll Protein Bar",
+    "description": "Soft and chewy bar packed with protein and cinnamon flavors.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17640e" },
+    "fileUrl": "http://dummyimage.com/122x100.png/dddddd/000000",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e17640f" }],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Macropus rufogriseus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Nesomimus trifasciatus",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Mazama gouazoubira",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Picoides pubescens",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Lasiorhinus latifrons",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          { "name": "Felis rufus", "relatedTo": "game", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Geochelone elephantopus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Colobus guerza",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Balearica pavonina",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Phascogale calura",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          { "name": "Tenrec ecaudatus", "relatedTo": "fan", "verdict": false },
+          {
+            "name": "Carduelis uropygialis",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Eremophila alpestris",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Macropus giganteus",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Theropithecus gelada",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Grus rubicundus", "relatedTo": "fan", "verdict": false },
+          {
+            "name": "Macropus fuliginosus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Ursus americanus", "relatedTo": "team", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176410" },
+    "title": "Pet Water Fountain with Filtration",
+    "description": "Continuous stream of fresh water for pets, promoting hydration.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176411" },
+    "fileUrl": "http://dummyimage.com/155x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176412" },
+      { "$oid": "684ad49cfc13ae5b4e176413" },
+      { "$oid": "684ad49cfc13ae5b4e176414" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Spizaetus coronatus",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Plegadis falcinellus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Naja nivea", "relatedTo": "player", "verdict": false },
+          {
+            "name": "Phoca vitulina",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Paradoxurus hermaphroditus",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Ara chloroptera",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Otaria flavescens",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Ara macao", "relatedTo": "game", "verdict": true },
+          { "name": "Cacatua galerita", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Macaca nemestrina",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Macropus agilis",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Haliaeetus leucoryphus",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176415" },
+    "title": "Non-Stick Baking Sheet",
+    "description": "Durable baking sheet coated for easy food release.",
+    "tags": ["tag6", "tag3", "tag2", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176416" },
+    "fileUrl": "http://dummyimage.com/180x100.png/5fa2dd/ffffff",
+    "similarTo": [],
+    "status": "reviewed",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176417" },
+    "title": "Multi-Function Meat Tenderizer",
+    "description": "Kitchen tool for tenderizing meat to enhance flavors.",
+    "tags": ["tag8", "tag2", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176418" },
+    "fileUrl": "http://dummyimage.com/213x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176419" },
+      { "$oid": "684ad49cfc13ae5b4e17641a" },
+      { "$oid": "684ad49cfc13ae5b4e17641b" },
+      { "$oid": "684ad49cfc13ae5b4e17641c" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Dasypus septemcincus",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Anastomus oscitans",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          { "name": "Felis concolor", "relatedTo": "trophy", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Eumetopias jubatus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Antilope cervicapra",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          {
+            "name": "Bubo virginianus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Ephippiorhynchus mycteria",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          { "name": "Phascogale calura", "relatedTo": "fan", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Coluber constrictor",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Hymenolaimus malacorhynchus",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Ploceus intermedius",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Macaca radiata", "relatedTo": "coach", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17641d" },
+    "title": "Magnetic Whiteboard",
+    "description": "Reusable whiteboard for notes and reminders with magnetic backing.",
+    "tags": ["tag9", "tag5"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17641e" },
+    "fileUrl": "http://dummyimage.com/134x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17641f" },
+      { "$oid": "684ad49cfc13ae5b4e176420" },
+      { "$oid": "684ad49cfc13ae5b4e176421" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Choloepus hoffmani",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Columba livia", "relatedTo": "fan", "verdict": true },
+          { "name": "Sterna paradisaea", "relatedTo": "fan", "verdict": false },
+          {
+            "name": "Macropus fuliginosus",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Irania gutteralis",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Ramphastos tucanus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Cebus apella", "relatedTo": "coach", "verdict": true },
+          {
+            "name": "Heloderma horridum",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          { "name": "Gorilla gorilla", "relatedTo": "game", "verdict": false },
+          {
+            "name": "Speotyte cuniculata",
+            "relatedTo": "game",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Alligator mississippiensis",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          {
+            "name": "Centrocercus urophasianus",
+            "relatedTo": "game",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lepus arcticus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Catharacta skua",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176422" },
+    "title": "Inflatable Party Cooler",
+    "description": "Fun inflatable cooler to keep drinks cold at parties.",
+    "tags": ["tag2", "tag3", "tag10", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176423" },
+    "fileUrl": "http://dummyimage.com/156x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176424" },
+      { "$oid": "684ad49cfc13ae5b4e176425" },
+      { "$oid": "684ad49cfc13ae5b4e176426" },
+      { "$oid": "684ad49cfc13ae5b4e176427" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Marmota flaviventris",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Macaca mulatta", "relatedTo": "trophy", "verdict": true },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Diceros bicornis", "relatedTo": "coach", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Manouria emys",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Bucephala clangula", "relatedTo": "fan", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Hystrix cristata",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Psophia viridis",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176428" },
+    "title": "Sea Salt Caramel Popcorn",
+    "description": "Sweet and salty popcorn with sea salt and caramel, a tasty treat.",
+    "tags": ["tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176429" },
+    "fileUrl": "http://dummyimage.com/114x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17642a" },
+      { "$oid": "684ad49cfc13ae5b4e17642b" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Pavo cristatus", "relatedTo": "referee", "verdict": true },
+          { "name": "Kobus defassa", "relatedTo": "team", "verdict": true },
+          {
+            "name": "Mirounga leonina",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Paraxerus cepapi", "relatedTo": "team", "verdict": true },
+          { "name": "Sula nebouxii", "relatedTo": "game", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Dasypus septemcincus",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Amblyrhynchus cristatus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Geochelone elegans",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lasiorhinus latifrons",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Plegadis ridgwayi",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Chordeiles minor", "relatedTo": "coach", "verdict": true },
+          { "name": "Hyaena brunnea", "relatedTo": "coach", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17642c" },
+    "title": "Faux Fur Throw Blanket",
+    "description": "Cozy faux fur blanket to add warmth and style to your home.",
+    "tags": ["tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17642d" },
+    "fileUrl": "http://dummyimage.com/218x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17642e" },
+      { "$oid": "684ad49cfc13ae5b4e17642f" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Streptopelia decipiens",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tiliqua scincoides",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Columba livia", "relatedTo": "referee", "verdict": true },
+          {
+            "name": "Meleagris gallopavo",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Chlamydosaurus kingii",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Raphicerus campestris",
+            "relatedTo": "coach",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Phalacrocorax niger",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Coluber constrictor",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Eumetopias jubatus",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Spermophilus lateralis",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176430" },
+    "title": "Ramen Noodles",
+    "description": "Quick-cooking ramen for instant meals.",
+    "tags": ["tag2", "tag1", "tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176431" },
+    "fileUrl": "http://dummyimage.com/196x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176432" },
+      { "$oid": "684ad49cfc13ae5b4e176433" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Varanus albigularis",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Cordylus giganteus",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Dusicyon thous",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Papio cynocephalus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Taurotagus oryx", "relatedTo": "game", "verdict": true },
+          { "name": "Milvus migrans", "relatedTo": "trophy", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Gopherus agassizii", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Uraeginthus angolensis",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176434" },
+    "title": "Hair Dryer",
+    "description": "Compact hair dryer with multiple heat settings.",
+    "tags": ["tag3", "tag4", "tag7", "tag2", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176435" },
+    "fileUrl": "http://dummyimage.com/207x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176436" },
+      { "$oid": "684ad49cfc13ae5b4e176437" },
+      { "$oid": "684ad49cfc13ae5b4e176438" },
+      { "$oid": "684ad49cfc13ae5b4e176439" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Numida meleagris",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Tauraco porphyrelophus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Tachyglossus aculeatus",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Antilocapra americana",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Meleagris gallopavo",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Gyps bengalensis", "relatedTo": "coach", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Corvus albus", "relatedTo": "trophy", "verdict": true },
+          {
+            "name": "Uraeginthus granatina",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Tyto novaehollandiae",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Trichechus inunguis",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17643a" },
+    "title": "Chicken Salad Kit",
+    "description": "All-in-one kit for making delicious chicken salad.",
+    "tags": ["tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17643b" },
+    "fileUrl": "http://dummyimage.com/160x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17643c" },
+      { "$oid": "684ad49cfc13ae5b4e17643d" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Vanessa indica", "relatedTo": "team", "verdict": true },
+          { "name": "Cebus apella", "relatedTo": "player", "verdict": true },
+          {
+            "name": "Tachybaptus ruficollis",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          { "name": "Hyaena hyaena", "relatedTo": "trophy", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Otaria flavescens",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Varanus komodensis",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Mazama gouazoubira", "relatedTo": "game", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Mazama americana",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Macaca mulatta",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17643e" },
+    "title": "Organic Quinoa",
+    "description": "Nutritious organic quinoa for salads or sides",
+    "tags": ["tag2", "tag1", "tag9", "tag4", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17643f" },
+    "fileUrl": "http://dummyimage.com/201x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176440" },
+      { "$oid": "684ad49cfc13ae5b4e176441" },
+      { "$oid": "684ad49cfc13ae5b4e176442" },
+      { "$oid": "684ad49cfc13ae5b4e176443" },
+      { "$oid": "684ad49cfc13ae5b4e176444" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Vulpes vulpes", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Plegadis ridgwayi",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Macropus agilis", "relatedTo": "referee", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          { "name": "Crotalus cerastes", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Hyaena hyaena", "relatedTo": "trophy", "verdict": false },
+          {
+            "name": "Limosa haemastica",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Sterna paradisaea",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Stercorarius longicausus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Merops nubicus", "relatedTo": "game", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176445" },
+    "title": "High-Speed HDMI Cable",
+    "description": "Durable cable for connecting devices with high-definition video.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176446" },
+    "fileUrl": "http://dummyimage.com/224x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176447" },
+      { "$oid": "684ad49cfc13ae5b4e176448" },
+      { "$oid": "684ad49cfc13ae5b4e176449" },
+      { "$oid": "684ad49cfc13ae5b4e17644a" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Larus fuliginosus",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          { "name": "Dusicyon thous", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Tachyglossus aculeatus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tapirus terrestris",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Phasianus colchicus",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Plegadis ridgwayi",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Mazama americana",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Panthera pardus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Plectopterus gambensis",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17644b" },
+    "title": "Banana Nut Oatmeal Cups",
+    "description": "Quick oatmeal cups with banana and nut flavor, great for breakfast.",
+    "tags": ["tag7", "tag8", "tag5", "tag2"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17644c" },
+    "fileUrl": "http://dummyimage.com/189x100.png/dddddd/000000",
+    "similarTo": [],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Marmota flaviventris",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Zalophus californicus",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          { "name": "Snycerus caffer", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Pedetes capensis",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Neotis denhami",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Phasianus colchicus", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Drymarchon corias couperi",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Oreamnos americanus",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17644d" },
+    "title": "Instant Pot",
+    "description": "7-in-1 multi-cooker for versatile cooking.",
+    "tags": ["tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17644e" },
+    "fileUrl": "http://dummyimage.com/190x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17644f" },
+      { "$oid": "684ad49cfc13ae5b4e176450" },
+      { "$oid": "684ad49cfc13ae5b4e176451" },
+      { "$oid": "684ad49cfc13ae5b4e176452" },
+      { "$oid": "684ad49cfc13ae5b4e176453" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Ara ararauna", "relatedTo": "statistics", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Redunca redunca", "relatedTo": "fan", "verdict": true },
+          { "name": "Ara ararauna", "relatedTo": "trophy", "verdict": false },
+          {
+            "name": "Anathana ellioti",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Pelecans onocratalus",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tamiasciurus hudsonicus",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Oreamnos americanus",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Crocuta crocuta",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Nasua nasua", "relatedTo": "opponent", "verdict": false },
+          {
+            "name": "Epicrates cenchria maurus",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Paraxerus cepapi",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176454" },
+    "title": "DIY Lip Balm Kit",
+    "description": "Craft your own lip balms with this complete kit.",
+    "tags": ["tag9"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176455" },
+    "fileUrl": "http://dummyimage.com/239x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176456" },
+      { "$oid": "684ad49cfc13ae5b4e176457" },
+      { "$oid": "684ad49cfc13ae5b4e176458" },
+      { "$oid": "684ad49cfc13ae5b4e176459" },
+      { "$oid": "684ad49cfc13ae5b4e17645a" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Manouria emys", "relatedTo": "fan", "verdict": true },
+          { "name": "Erethizon dorsatum", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Cervus duvauceli",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cynomys ludovicianus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Ardea cinerea", "relatedTo": "trophy", "verdict": true },
+          { "name": "Eudyptula minor", "relatedTo": "player", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Paroaria gularis", "relatedTo": "game", "verdict": false },
+          {
+            "name": "Leptoptilos crumeniferus",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Paradoxurus hermaphroditus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Phoca vitulina",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17645b" },
+    "title": "Spicy Avocado Salsa",
+    "description": "A zesty salsa made from ripe avocados, tomatoes, onions, and jalapeños, great for dipping or topping.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17645c" },
+    "fileUrl": "http://dummyimage.com/235x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17645d" },
+      { "$oid": "684ad49cfc13ae5b4e17645e" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Smithopsis crassicaudata",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Myiarchus tuberculifer",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          { "name": "Neotoma sp.", "relatedTo": "trophy", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Actophilornis africanus",
+            "relatedTo": "coach",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Phoeniconaias minor",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Salvadora hexalepis",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Cathartes aura",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Carphophis sp.",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Tayassu tajacu", "relatedTo": "trophy", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17645f" },
+    "title": "Sweet Chili Thai Sauce",
+    "description": "Tangy sweet chili sauce perfect for dipping or cooking.",
+    "tags": ["tag9", "tag8", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176460" },
+    "fileUrl": "http://dummyimage.com/117x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176461" },
+      { "$oid": "684ad49cfc13ae5b4e176462" },
+      { "$oid": "684ad49cfc13ae5b4e176463" },
+      { "$oid": "684ad49cfc13ae5b4e176464" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Semnopithecus entellus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          { "name": "Vulpes vulpes", "relatedTo": "referee", "verdict": false },
+          { "name": "Chauna torquata", "relatedTo": "trophy", "verdict": true },
+          { "name": "Chauna torquata", "relatedTo": "trophy", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Papio cynocephalus",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Paradoxurus hermaphroditus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Anastomus oscitans",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          {
+            "name": "Francolinus swainsonii",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Damaliscus lunatus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Aegypius tracheliotus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Passer domesticus", "relatedTo": "team", "verdict": true },
+          { "name": "Hyaena hyaena", "relatedTo": "fan", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Hymenolaimus malacorhynchus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Sylvicapra grimma",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Tiliqua scincoides", "relatedTo": "fan", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176465" },
+    "title": "Chunky Knit Sweater",
+    "description": "Cozy oversized sweater perfect for chilly days with a textured knit design.",
+    "tags": ["tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176466" },
+    "fileUrl": "http://dummyimage.com/153x100.png/5fa2dd/ffffff",
+    "similarTo": [],
+    "status": "reviewed",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176467" },
+    "title": "Baked Falafel",
+    "description": "Crispy baked falafel balls, perfect for salads",
+    "tags": ["tag9", "tag4", "tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176468" },
+    "fileUrl": "http://dummyimage.com/129x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176469" },
+      { "$oid": "684ad49cfc13ae5b4e17646a" },
+      { "$oid": "684ad49cfc13ae5b4e17646b" },
+      { "$oid": "684ad49cfc13ae5b4e17646c" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Anthropoides paradisea",
+            "relatedTo": "coach",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Bettongia penicillata",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Colobus guerza",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Acridotheres tristis",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          { "name": "Ara macao", "relatedTo": "championship", "verdict": true },
+          {
+            "name": "Tamiasciurus hudsonicus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Felis concolor",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Eumetopias jubatus",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17646d" },
+    "title": "Backpack",
+    "description": "Durable and spacious backpack for travel and school.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17646e" },
+    "fileUrl": "http://dummyimage.com/168x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17646f" },
+      { "$oid": "684ad49cfc13ae5b4e176470" },
+      { "$oid": "684ad49cfc13ae5b4e176471" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Elephas maximus bengalensis",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Ara ararauna", "relatedTo": "team", "verdict": false },
+          { "name": "Ursus arctos", "relatedTo": "player", "verdict": true },
+          {
+            "name": "Trachyphonus vaillantii",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Lycosa godeffroyi",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Fregata magnificans",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Capreolus capreolus",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Neophron percnopterus",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Hystrix cristata",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Hystrix cristata",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176472" },
+    "title": "Gluten-Free Pancake Mix",
+    "description": "Fluffy and delicious pancake mix, perfect for a gluten-free breakfast.",
+    "tags": ["tag5", "tag7", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176473" },
+    "fileUrl": "http://dummyimage.com/213x100.png/ff4444/ffffff",
+    "similarTo": [],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Numida meleagris", "relatedTo": "team", "verdict": true },
+          { "name": "Genetta genetta", "relatedTo": "game", "verdict": false },
+          {
+            "name": "Streptopelia senegalensis",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Tamiasciurus hudsonicus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Arctogalidia trivirgata",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Felis yagouaroundi",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          { "name": "Chamaelo sp.", "relatedTo": "fan", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Zosterops pallidus", "relatedTo": "game", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176474" },
+    "title": "Faux Fur Throw Blanket",
+    "description": "Cozy faux fur blanket to add warmth and style to your home.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176475" },
+    "fileUrl": "http://dummyimage.com/165x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176476" },
+      { "$oid": "684ad49cfc13ae5b4e176477" },
+      { "$oid": "684ad49cfc13ae5b4e176478" },
+      { "$oid": "684ad49cfc13ae5b4e176479" },
+      { "$oid": "684ad49cfc13ae5b4e17647a" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Meleagris gallopavo", "relatedTo": "fan", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17647b" },
+    "title": "Italian Marinara Sauce",
+    "description": "Classic marinara sauce for pasta, pizza, or dipping.",
+    "tags": ["tag7", "tag8", "tag10", "tag4", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17647c" },
+    "fileUrl": "http://dummyimage.com/151x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17647d" },
+      { "$oid": "684ad49cfc13ae5b4e17647e" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Cathartes aura", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Crotalus adamanteus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Prionace glauca",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          { "name": "Cathartes aura", "relatedTo": "game", "verdict": false },
+          { "name": "Tayassu tajacu", "relatedTo": "trophy", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Sarkidornis melanotos",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Ardea golieth",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Macropus eugenii",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tachybaptus ruficollis",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Stercorarius longicausus",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Coluber constrictor",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Taurotagus oryx", "relatedTo": "coach", "verdict": true },
+          {
+            "name": "Chordeiles minor",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Helogale undulata",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Castor fiber", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Capreolus capreolus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17647f" },
+    "title": "Electric Griddle with Lid",
+    "description": "Non-stick griddle for pancakes, burgers, and more.",
+    "tags": ["tag4", "tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176480" },
+    "fileUrl": "http://dummyimage.com/182x100.png/cc0000/ffffff",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e176481" }],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Dicrurus adsimilis",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          { "name": "unavailable", "relatedTo": "player", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Callipepla gambelii",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Kobus leche robertsi",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Podargus strigoides",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          {
+            "name": "Trichosurus vulpecula",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Tursiops truncatus",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Platalea leucordia",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Centrocercus urophasianus",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Estrilda erythronotos",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Chelodina longicollis",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Spermophilus richardsonii",
+            "relatedTo": "coach",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176482" },
+    "title": "Toy Building Set",
+    "description": "Creative building set for kids to spark imagination.",
+    "tags": ["tag6", "tag2", "tag3", "tag7", "tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176483" },
+    "fileUrl": "http://dummyimage.com/212x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176484" },
+      { "$oid": "684ad49cfc13ae5b4e176485" },
+      { "$oid": "684ad49cfc13ae5b4e176486" },
+      { "$oid": "684ad49cfc13ae5b4e176487" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Bettongia penicillata",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Aquila chrysaetos", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Corallus hortulanus cooki",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Gabianus pacificus",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Larus fuliginosus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Oreamnos americanus",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176488" },
+    "title": "Wall-Mounted Organizer",
+    "description": "Practical organizer for keeping your home tidy and clutter-free.",
+    "tags": ["tag3", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176489" },
+    "fileUrl": "http://dummyimage.com/101x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17648a" },
+      { "$oid": "684ad49cfc13ae5b4e17648b" },
+      { "$oid": "684ad49cfc13ae5b4e17648c" },
+      { "$oid": "684ad49cfc13ae5b4e17648d" },
+      { "$oid": "684ad49cfc13ae5b4e17648e" }
+    ],
+    "status": "approved",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17648f" },
+    "title": "Garden Hose Reel",
+    "description": "Compact hose reel to keep your garden tidy.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176490" },
+    "fileUrl": "http://dummyimage.com/106x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176491" },
+      { "$oid": "684ad49cfc13ae5b4e176492" },
+      { "$oid": "684ad49cfc13ae5b4e176493" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Dendrohyrax brucel",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lamprotornis nitens",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Calyptorhynchus magnificus",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Trichechus inunguis",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Rhea americana", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Paradoxurus hermaphroditus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Tayassu tajacu",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176494" },
+    "title": "Buffalo Wing Sauce",
+    "description": "Spicy sauce perfect for chicken wings and dipping.",
+    "tags": ["tag3", "tag1", "tag10", "tag7", "tag2"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176495" },
+    "fileUrl": "http://dummyimage.com/202x100.png/cc0000/ffffff",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e176496" }],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Irania gutteralis", "relatedTo": "team", "verdict": true },
+          {
+            "name": "Myrmecophaga tridactyla",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          {
+            "name": "Phoenicopterus ruber",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Neotis denhami", "relatedTo": "coach", "verdict": true },
+          {
+            "name": "Sylvilagus floridanus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Crotalus cerastes",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          { "name": "Gyps fulvus", "relatedTo": "opponent", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176497" },
+    "title": "Wireless Charging Station",
+    "description": "Charge multiple devices with this sleek charging station.",
+    "tags": ["tag9", "tag2"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176498" },
+    "fileUrl": "http://dummyimage.com/121x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176499" },
+      { "$oid": "684ad49cfc13ae5b4e17649a" },
+      { "$oid": "684ad49cfc13ae5b4e17649b" },
+      { "$oid": "684ad49cfc13ae5b4e17649c" },
+      { "$oid": "684ad49cfc13ae5b4e17649d" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Limosa haemastica",
+            "relatedTo": "coach",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17649e" },
+    "title": "Laptop Backpack",
+    "description": "Water-resistant laptop backpack with multiple compartments.",
+    "tags": ["tag4", "tag5", "tag8"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17649f" },
+    "fileUrl": "http://dummyimage.com/202x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764a0" },
+      { "$oid": "684ad49cfc13ae5b4e1764a1" },
+      { "$oid": "684ad49cfc13ae5b4e1764a2" },
+      { "$oid": "684ad49cfc13ae5b4e1764a3" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764a4" },
+    "title": "Stainless Steel Cutlery Set",
+    "description": "High-quality cutlery set for daily use or special occasions.",
+    "tags": ["tag6", "tag2"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764a5" },
+    "fileUrl": "http://dummyimage.com/225x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764a6" },
+      { "$oid": "684ad49cfc13ae5b4e1764a7" },
+      { "$oid": "684ad49cfc13ae5b4e1764a8" },
+      { "$oid": "684ad49cfc13ae5b4e1764a9" },
+      { "$oid": "684ad49cfc13ae5b4e1764aa" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Ara macao", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Litrocranius walleri",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Zonotrichia capensis",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          { "name": "Tadorna tadorna", "relatedTo": "team", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Papilio canadensis",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Ardea cinerea", "relatedTo": "referee", "verdict": true },
+          {
+            "name": "Phalacrocorax albiventer",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Phalacrocorax brasilianus",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Varanus sp.", "relatedTo": "opponent", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764ab" },
+    "title": "Classic Pumps",
+    "description": "Elegant classic pumps that add sophistication to any outfit.",
+    "tags": ["tag7", "tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764ac" },
+    "fileUrl": "http://dummyimage.com/207x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764ad" },
+      { "$oid": "684ad49cfc13ae5b4e1764ae" },
+      { "$oid": "684ad49cfc13ae5b4e1764af" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764b0" },
+    "title": "Multi-Functional Rice Cooker",
+    "description": "Electric rice cooker with multiple cooking settings for perfect rice.",
+    "tags": ["tag1", "tag3", "tag5", "tag4"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764b1" },
+    "fileUrl": "http://dummyimage.com/139x100.png/cc0000/ffffff",
+    "similarTo": [],
+    "status": "reviewed",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764b2" },
+    "title": "Lemonade Mix",
+    "description": "Sweetened powder for refreshing lemonade.",
+    "tags": ["tag7", "tag4", "tag3", "tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764b3" },
+    "fileUrl": "http://dummyimage.com/145x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764b4" },
+      { "$oid": "684ad49cfc13ae5b4e1764b5" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Falco peregrinus", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Bison bison",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Tamandua tetradactyla",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Eolophus roseicapillus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Lybius torquatus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764b6" },
+    "title": "Foam Muscle Roller",
+    "description": "Relieve muscle tension and soreness with this foam roller.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764b7" },
+    "fileUrl": "http://dummyimage.com/161x100.png/dddddd/000000",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e1764b8" }],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Pelecanus conspicillatus",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Trichoglossus chlorolepidotus",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Globicephala melas",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Eremophila alpestris",
+            "relatedTo": "game",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764b9" },
+    "title": "Black Bean & Corn Salad",
+    "description": "A fresh salad made with black beans, corn, and a zesty dressing, great for summer cookouts.",
+    "tags": ["tag6"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764ba" },
+    "fileUrl": "http://dummyimage.com/133x100.png/dddddd/000000",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764bb" },
+      { "$oid": "684ad49cfc13ae5b4e1764bc" },
+      { "$oid": "684ad49cfc13ae5b4e1764bd" },
+      { "$oid": "684ad49cfc13ae5b4e1764be" },
+      { "$oid": "684ad49cfc13ae5b4e1764bf" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Spilogale gracilis",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Pedetes capensis",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Sylvicapra grimma",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Varanus albigularis",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Trichoglossus chlorolepidotus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Pseudalopex gymnocercus",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Ceratotherium simum",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Bassariscus astutus",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Lybius torquatus", "relatedTo": "fan", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764c0" },
+    "title": "Sesame Noodles",
+    "description": "Chilled noodles dressed in sesame sauce, ready to eat.",
+    "tags": ["tag7", "tag5"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764c1" },
+    "fileUrl": "http://dummyimage.com/203x100.png/cc0000/ffffff",
+    "similarTo": [{ "$oid": "684ad49cfc13ae5b4e1764c2" }],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Tringa glareola", "relatedTo": "player", "verdict": true },
+          {
+            "name": "Bucephala clangula",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Gabianus pacificus",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Mephitis mephitis", "relatedTo": "team", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Eira barbata", "relatedTo": "opponent", "verdict": true },
+          {
+            "name": "Semnopithecus entellus",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Felis wiedi or Leopardus weidi",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Megaderma spasma", "relatedTo": "trophy", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764c3" },
+    "title": "Spaghetti and Meatball Dinner Kit",
+    "description": "All-in-one meal kit including pasta, meatballs, and sauce for a quick dinner.",
+    "tags": ["tag1", "tag6", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764c4" },
+    "fileUrl": "http://dummyimage.com/182x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764c5" },
+      { "$oid": "684ad49cfc13ae5b4e1764c6" },
+      { "$oid": "684ad49cfc13ae5b4e1764c7" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Lemur catta", "relatedTo": "trophy", "verdict": false },
+          {
+            "name": "Speothos vanaticus",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Numida meleagris",
+            "relatedTo": "trophy",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Macropus fuliginosus",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Stercorarius longicausus",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Pseudalopex gymnocercus",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Paraxerus cepapi",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Morelia spilotes variegata",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Connochaetus taurinus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Limosa haemastica",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Castor canadensis",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Gyps bengalensis", "relatedTo": "team", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Phalaropus fulicarius",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          {
+            "name": "unavailable",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Naja haje", "relatedTo": "game", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764c8" },
+    "title": "Portable Solar Generator",
+    "description": "Eco-friendly generator for outdoor adventures.",
+    "tags": ["tag6", "tag4", "tag8", "tag2", "tag5"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764c9" },
+    "fileUrl": "http://dummyimage.com/231x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764ca" },
+      { "$oid": "684ad49cfc13ae5b4e1764cb" },
+      { "$oid": "684ad49cfc13ae5b4e1764cc" },
+      { "$oid": "684ad49cfc13ae5b4e1764cd" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Spermophilus lateralis",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Nectarinia chalybea",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Bugeranus caruncalatus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Larus fuliginosus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          { "name": "Upupa epops", "relatedTo": "fan", "verdict": true },
+          { "name": "Colobus guerza", "relatedTo": "trophy", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Thamnolaea cinnmomeiventris",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Cyrtodactylus louisiadensis",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Streptopelia decipiens",
+            "relatedTo": "team",
+            "verdict": false
+          },
+          { "name": "Haematopus ater", "relatedTo": "game", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Eubalaena australis",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Ephipplorhynchus senegalensis",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Tringa glareola",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Limnocorax flavirostra",
+            "relatedTo": "player",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764ce" },
+    "title": "Savory Snack Mix",
+    "description": "A mix of nuts, pretzels, and crackers, seasoned just right for snacking.",
+    "tags": ["tag4", "tag2", "tag9", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764cf" },
+    "fileUrl": "http://dummyimage.com/104x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764d0" },
+      { "$oid": "684ad49cfc13ae5b4e1764d1" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Anthropoides paradisea",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Damaliscus lunatus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Oryx gazella callotis",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Parus atricapillus",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Camelus dromedarius",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Eubalaena australis",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Spermophilus lateralis",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Geococcyx californianus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Leipoa ocellata", "relatedTo": "referee", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Psittacula krameri",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Procyon cancrivorus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Lama pacos", "relatedTo": "opponent", "verdict": true },
+          {
+            "name": "Nesomimus trifasciatus",
+            "relatedTo": "game",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764d2" },
+    "title": "Self-Stirring Mug",
+    "description": "Automated stirring for your drinks with just a press of a button.",
+    "tags": ["tag5", "tag3", "tag10", "tag7"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764d3" },
+    "fileUrl": "http://dummyimage.com/154x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764d4" },
+      { "$oid": "684ad49cfc13ae5b4e1764d5" },
+      { "$oid": "684ad49cfc13ae5b4e1764d6" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Plegadis ridgwayi",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          { "name": "Choriotis kori", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Macropus fuliginosus",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          { "name": "Kobus defassa", "relatedTo": "coach", "verdict": false },
+          {
+            "name": "Dasypus novemcinctus",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Anastomus oscitans",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Felis concolor",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Cracticus nigroagularis",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764d7" },
+    "title": "Compact Portable Grill",
+    "description": "Easy-to-use portable grill for barbecues.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764d8" },
+    "fileUrl": "http://dummyimage.com/102x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764d9" },
+      { "$oid": "684ad49cfc13ae5b4e1764da" },
+      { "$oid": "684ad49cfc13ae5b4e1764db" },
+      { "$oid": "684ad49cfc13ae5b4e1764dc" },
+      { "$oid": "684ad49cfc13ae5b4e1764dd" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Eudyptula minor", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Ploceus intermedius",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Marmota caligata", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Tockus erythrorhyncus",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cyrtodactylus louisiadensis",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Sciurus vulgaris",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Damaliscus dorcas",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          { "name": "Anitibyx armatus", "relatedTo": "team", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Equus hemionus", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Centrocercus urophasianus",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          { "name": "Eutamias minimus", "relatedTo": "coach", "verdict": true },
+          { "name": "Ratufa indica", "relatedTo": "referee", "verdict": false },
+          {
+            "name": "Tragelaphus angasi",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764de" },
+    "title": "Cinnamon Raisin Bagels",
+    "description": "Soft bagels flavored with cinnamon and raisins.",
+    "tags": ["tag2", "tag9"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764df" },
+    "fileUrl": "http://dummyimage.com/114x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764e0" },
+      { "$oid": "684ad49cfc13ae5b4e1764e1" },
+      { "$oid": "684ad49cfc13ae5b4e1764e2" },
+      { "$oid": "684ad49cfc13ae5b4e1764e3" },
+      { "$oid": "684ad49cfc13ae5b4e1764e4" }
+    ],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Castor canadensis",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Echimys chrysurus",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Pycnonotus barbatus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Callorhinus ursinus",
+            "relatedTo": "trophy",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764e5" },
+    "title": "Smart Wi-Fi Camera",
+    "description": "Indoor Wi-Fi camera for home security.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764e6" },
+    "fileUrl": "http://dummyimage.com/208x100.png/dddddd/000000",
+    "similarTo": [],
+    "status": "pending",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Buteo regalis", "relatedTo": "coach", "verdict": true },
+          {
+            "name": "Chordeiles minor",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          {
+            "name": "Coluber constrictor foxii",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Proteles cristatus",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Tamandua tetradactyla",
+            "relatedTo": "game",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tockus flavirostris",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          {
+            "name": "Ciconia ciconia",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Macropus robustus",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Pseudocheirus peregrinus",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Alouatta seniculus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Alligator mississippiensis",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Felis silvestris lybica",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          { "name": "Felis caracal", "relatedTo": "team", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Alligator mississippiensis",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Kobus defassa",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Amblyrhynchus cristatus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Gyps bengalensis",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Nyctereutes procyonoides",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "unavailable", "relatedTo": "opponent", "verdict": false },
+          {
+            "name": "Phascogale tapoatafa",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764e7" },
+    "title": "Cocktail Shaker and Mixing Glass Set",
+    "description": "Complete set for mixing cocktails at home.",
+    "tags": ["tag8", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764e8" },
+    "fileUrl": "http://dummyimage.com/127x100.png/ff4444/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764e9" },
+      { "$oid": "684ad49cfc13ae5b4e1764ea" },
+      { "$oid": "684ad49cfc13ae5b4e1764eb" },
+      { "$oid": "684ad49cfc13ae5b4e1764ec" },
+      { "$oid": "684ad49cfc13ae5b4e1764ed" }
+    ],
+    "status": "RejectedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Ephipplorhynchus senegalensis",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Nyctanassa violacea",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Corvus albicollis",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Naja sp.", "relatedTo": "trophy", "verdict": false },
+          {
+            "name": "Tragelaphus strepsiceros",
+            "relatedTo": "team",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "unavailable",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          { "name": "Lemur fulvus", "relatedTo": "team", "verdict": true },
+          {
+            "name": "Francolinus swainsonii",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          { "name": "Gyps bengalensis", "relatedTo": "fan", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Ara macao",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Heloderma horridum",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Propithecus verreauxi",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          { "name": "Ratufa indica", "relatedTo": "referee", "verdict": true },
+          {
+            "name": "Deroptyus accipitrinus",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Ourebia ourebi", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Manouria emys",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          {
+            "name": "Nyctanassa violacea",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764ee" },
+    "title": "Digital Food Scale",
+    "description": "Precision digital scale for accurate cooking measurements.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764ef" },
+    "fileUrl": "http://dummyimage.com/222x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764f0" },
+      { "$oid": "684ad49cfc13ae5b4e1764f1" },
+      { "$oid": "684ad49cfc13ae5b4e1764f2" },
+      { "$oid": "684ad49cfc13ae5b4e1764f3" },
+      { "$oid": "684ad49cfc13ae5b4e1764f4" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Martes americana",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Bison bison", "relatedTo": "statistics", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lorythaixoides concolor",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Lasiorhinus latifrons",
+            "relatedTo": "game",
+            "verdict": false
+          },
+          {
+            "name": "Eolophus roseicapillus",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Lasiorhinus latifrons",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Ara ararauna", "relatedTo": "coach", "verdict": false },
+          {
+            "name": "Otocyon megalotis",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Colobus guerza", "relatedTo": "team", "verdict": false },
+          {
+            "name": "Hystrix cristata",
+            "relatedTo": "referee",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764f5" },
+    "title": "Professional Chef Knife",
+    "description": "High-carbon stainless steel chef knife for precision cutting.",
+    "tags": ["tag3"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764f6" },
+    "fileUrl": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764f7" },
+      { "$oid": "684ad49cfc13ae5b4e1764f8" },
+      { "$oid": "684ad49cfc13ae5b4e1764f9" }
+    ],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Psophia viridis", "relatedTo": "coach", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Dicrurus adsimilis",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Plegadis falcinellus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Alopex lagopus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Butorides striatus",
+            "relatedTo": "game",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Castor canadensis",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Macropus rufogriseus",
+            "relatedTo": "player",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Crocodylus niloticus",
+            "relatedTo": "team",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Vulpes cinereoargenteus",
+            "relatedTo": "statistics",
+            "verdict": false
+          },
+          {
+            "name": "Lasiorhinus latifrons",
+            "relatedTo": "game",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e1764fa" },
+    "title": "Cabbage Slaw Mix",
+    "description": "Fresh cabbage and carrot slaw mix for salads.",
+    "tags": ["tag10", "tag1"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e1764fb" },
+    "fileUrl": "http://dummyimage.com/220x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e1764fc" },
+      { "$oid": "684ad49cfc13ae5b4e1764fd" },
+      { "$oid": "684ad49cfc13ae5b4e1764fe" },
+      { "$oid": "684ad49cfc13ae5b4e1764ff" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Phaethon aethereus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Ardea cinerea", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Spermophilus tridecemlineatus",
+            "relatedTo": "game",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Lemur catta", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Pavo cristatus",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Phoca vitulina", "relatedTo": "referee", "verdict": true },
+          {
+            "name": "Heloderma horridum",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          {
+            "name": "Carduelis pinus",
+            "relatedTo": "opponent",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Loxodonta africana",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Streptopelia senegalensis",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176500" },
+    "title": "Zesty Garlic Marinade",
+    "description": "A tangy marinade for meats and veggies, packed with garlic flavor.",
+    "tags": ["tag1", "tag8"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176501" },
+    "fileUrl": "http://dummyimage.com/170x100.png/cc0000/ffffff",
+    "similarTo": [],
+    "status": "RejectedByFinance",
+    "testResults": []
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176502" },
+    "title": "Berry Smoothie Mix",
+    "description": "Frozen mix for quick berry smoothies.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176503" },
+    "fileUrl": "http://dummyimage.com/108x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176504" },
+      { "$oid": "684ad49cfc13ae5b4e176505" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Sterna paradisaea",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "unavailable", "relatedTo": "statistics", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Capreolus capreolus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "Choriotis kori", "relatedTo": "coach", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176506" },
+    "title": "Dark Chocolate Covered Raisins",
+    "description": "Satisfy your sweet tooth with these dark chocolate-covered raisins.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176507" },
+    "fileUrl": "http://dummyimage.com/223x100.png/5fa2dd/ffffff",
+    "similarTo": [],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Ara macao", "relatedTo": "game", "verdict": false }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Herpestes javanicus",
+            "relatedTo": "championship",
+            "verdict": false
+          },
+          {
+            "name": "Ploceus rubiginosus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Ephippiorhynchus mycteria",
+            "relatedTo": "referee",
+            "verdict": false
+          },
+          { "name": "Mirounga leonina", "relatedTo": "team", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Hymenolaimus malacorhynchus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Cynictis penicillata",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          { "name": "Oryx gazella", "relatedTo": "team", "verdict": true },
+          {
+            "name": "Ctenophorus ornatus",
+            "relatedTo": "team",
+            "verdict": true
+          },
+          {
+            "name": "Ctenophorus ornatus",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Pseudalopex gymnocercus",
+            "relatedTo": "player",
+            "verdict": true
+          },
+          { "name": "Coracias caudata", "relatedTo": "game", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cynictis penicillata",
+            "relatedTo": "statistics",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176508" },
+    "title": "Banana Nut Muffins",
+    "description": "Moist, fluffy muffins packed with bananas and walnuts for a delightful breakfast or snack.",
+    "tags": ["tag7", "tag6", "tag2"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176509" },
+    "fileUrl": "http://dummyimage.com/127x100.png/5fa2dd/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17650a" },
+      { "$oid": "684ad49cfc13ae5b4e17650b" },
+      { "$oid": "684ad49cfc13ae5b4e17650c" },
+      { "$oid": "684ad49cfc13ae5b4e17650d" },
+      { "$oid": "684ad49cfc13ae5b4e17650e" }
+    ],
+    "status": "ApprovedByFinance",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Plegadis falcinellus",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          {
+            "name": "Physignathus cocincinus",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tapirus terrestris",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          { "name": "Naja haje", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Cacatua tenuirostris",
+            "relatedTo": "referee",
+            "verdict": true
+          },
+          {
+            "name": "Neophron percnopterus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Chelodina longicollis",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Alces alces", "relatedTo": "coach", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tachyglossus aculeatus",
+            "relatedTo": "championship",
+            "verdict": true
+          },
+          {
+            "name": "Cochlearius cochlearius",
+            "relatedTo": "coach",
+            "verdict": true
+          },
+          { "name": "Bison bison", "relatedTo": "statistics", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Cyrtodactylus louisiadensis",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Varanus sp.",
+            "relatedTo": "championship",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17650f" },
+    "title": "Pesto Pasta Salad",
+    "description": "Cold pasta salad tossed with pesto and fresh vegetables.",
+    "tags": ["tag3", "tag1", "tag9", "tag10"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176510" },
+    "fileUrl": "http://dummyimage.com/189x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176511" },
+      { "$oid": "684ad49cfc13ae5b4e176512" },
+      { "$oid": "684ad49cfc13ae5b4e176513" },
+      { "$oid": "684ad49cfc13ae5b4e176514" },
+      { "$oid": "684ad49cfc13ae5b4e176515" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          {
+            "name": "Numida meleagris",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Haliaetus vocifer", "relatedTo": "game", "verdict": true },
+          {
+            "name": "Lamprotornis nitens",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176516" },
+    "title": "Creamy Avocado Dip",
+    "description": "Rich and creamy dip made with real avocado, great for chips.",
+    "tags": [],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176517" },
+    "fileUrl": "http://dummyimage.com/116x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e176518" },
+      { "$oid": "684ad49cfc13ae5b4e176519" },
+      { "$oid": "684ad49cfc13ae5b4e17651a" },
+      { "$oid": "684ad49cfc13ae5b4e17651b" },
+      { "$oid": "684ad49cfc13ae5b4e17651c" }
+    ],
+    "status": "RejectedByLab",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Vulpes vulpes", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Choloepus hoffmani",
+            "relatedTo": "trophy",
+            "verdict": false
+          },
+          {
+            "name": "Grus rubicundus",
+            "relatedTo": "statistics",
+            "verdict": true
+          },
+          { "name": "unavailable", "relatedTo": "referee", "verdict": true }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Tachyglossus aculeatus",
+            "relatedTo": "fan",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Anitibyx armatus",
+            "relatedTo": "coach",
+            "verdict": false
+          },
+          { "name": "Tenrec ecaudatus", "relatedTo": "team", "verdict": true }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e17651d" },
+    "title": "Baked Falafel Balls",
+    "description": "Frozen falafel balls made from chickpeas and herbs, perfect for quick meals or salads.",
+    "tags": ["tag4", "tag8", "tag7", "tag5"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e17651e" },
+    "fileUrl": "http://dummyimage.com/185x100.png/cc0000/ffffff",
+    "similarTo": [
+      { "$oid": "684ad49cfc13ae5b4e17651f" },
+      { "$oid": "684ad49cfc13ae5b4e176520" },
+      { "$oid": "684ad49cfc13ae5b4e176521" },
+      { "$oid": "684ad49cfc13ae5b4e176522" },
+      { "$oid": "684ad49cfc13ae5b4e176523" }
+    ],
+    "status": "reviewed",
+    "testResults": [
+      {
+        "score": [
+          { "name": "Colobus guerza", "relatedTo": "trophy", "verdict": true },
+          {
+            "name": "Pycnonotus nigricans",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          { "name": "Gyps fulvus", "relatedTo": "trophy", "verdict": true },
+          {
+            "name": "Acrantophis madagascariensis",
+            "relatedTo": "referee",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Dasypus novemcinctus",
+            "relatedTo": "fan",
+            "verdict": false
+          },
+          {
+            "name": "Gazella thompsonii",
+            "relatedTo": "game",
+            "verdict": true
+          },
+          {
+            "name": "Neotis denhami",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Bubo sp.", "relatedTo": "trophy", "verdict": true },
+          {
+            "name": "Ramphastos tucanus",
+            "relatedTo": "opponent",
+            "verdict": false
+          },
+          {
+            "name": "Macropus eugenii",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Dusicyon thous",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          {
+            "name": "Varanus albigularis",
+            "relatedTo": "fan",
+            "verdict": true
+          },
+          {
+            "name": "Eubalaena australis",
+            "relatedTo": "game",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          { "name": "Lemur catta", "relatedTo": "referee", "verdict": false }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "684ad49cfc13ae5b4e176524" },
+    "title": "Car Phone Mount",
+    "description": "Adjustable phone mount for car dashboard.",
+    "tags": ["tag5"],
+    "uploadedBy": { "$oid": "684ad49cfc13ae5b4e176525" },
+    "fileUrl": "http://dummyimage.com/181x100.png/dddddd/000000",
+    "similarTo": [],
+    "status": "approved",
+    "testResults": [
+      {
+        "score": [
+          { "name": "unavailable", "relatedTo": "opponent", "verdict": false },
+          {
+            "name": "Butorides striatus",
+            "relatedTo": "player",
+            "verdict": false
+          },
+          { "name": "Chauna torquata", "relatedTo": "team", "verdict": false },
+          { "name": "Ratufa indica", "relatedTo": "fan", "verdict": true },
+          {
+            "name": "Irania gutteralis",
+            "relatedTo": "opponent",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Phalacrocorax varius",
+            "relatedTo": "opponent",
+            "verdict": true
+          },
+          { "name": "Macropus agilis", "relatedTo": "game", "verdict": false },
+          {
+            "name": "Charadrius tricollaris",
+            "relatedTo": "statistics",
+            "verdict": false
+          }
+        ]
+      },
+      {
+        "score": [
+          {
+            "name": "Francolinus swainsonii",
+            "relatedTo": "trophy",
+            "verdict": true
+          },
+          {
+            "name": "Pelecans onocratalus",
+            "relatedTo": "championship",
+            "verdict": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -96,6 +96,7 @@ function UserRow({ user }: { user: User }) {
     { value: "admin", label: "Admin" },
     { value: "labtester", label: "Lab Person Tester" },
     { value: "sales", label: "Sales Person" },
+    { value: "finance", label: "Finance Person" },
   ];
 
   // Gradient backgrounds for rows based on role
@@ -104,6 +105,8 @@ function UserRow({ user }: { user: User }) {
       ? "bg-gradient-to-r from-green-500/10 via-green-800/60 to-green-900/50 hover:bg-gradient-to-r hover:from-green-800/60 hover:via-green-700/70 hover:to-green-800/60"
       : role === "admin"
       ? "bg-gradient-to-r from-amber-400/10 via-amber-600/10  hover:bg-gradient-to-r hover:from-yellow-800/60 hover:via-yellow-700/70 hover:to-yellow-800/60"
+      : role === "finance"
+      ? "bg-gradient-to-r from-lime-400/10 via-lime-600/10  hover:bg-gradient-to-r hover:from-yellow-800/60 hover:via-yellow-700/70 hover:to-yellow-800/60"
       : role === "labtester"
       ? "bg-gradient-to-r  from-fuchsia-950/50 via-fuchsia-900/60 to-fuchsia-950/50 hover:bg-gradient-to-r hover:from-fuchsia-900/60 hover:via-fuchsia-800/70 hover:to-fuchsia-900/60"
       : "bg-gradient-to-r from-indigo-950/50 via-indigo-900/60 to-indigo-950/50 hover:bg-gradient-to-r hover:from-indigo-900/60 hover:via-indigo-800/70 hover:to-indigo-900/60";

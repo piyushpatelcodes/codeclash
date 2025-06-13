@@ -5,10 +5,11 @@ import mongoose from "mongoose";
 import Report from "../models/Report";
 
 const rolePermissions: Record<string, string[]> = {
-  sales: ["fileUrl", "fileSize", "fileType", "imageKitFileId" , "sharedWith", "title","description","isPrivate","tags"],
-  labtester: ["status", "sharedWith","testResults","tags"],
-  admin: ["status", "sharedWith","testResults","tags"],
-  superadmin: ["status","tags"],
+  sales: ["fileUrl", "fileSize", "fileType", "imageKitFileId", "sharedWith", "title", "description", "isPrivate", "tags", "similarTo", "similarReportIdsForDelete"],
+  finance: ["fileUrl", "fileSize", "fileType", "imageKitFileId", "sharedWith", "title", "description", "isPrivate", "tags", "status",  "testResults", "tags", "similarTo", "similarReportIdsForDelete"],
+  labtester: ["status", "sharedWith", "testResults", "tags", "similarTo", "similarReportIdsForDelete"],
+  admin: ["status", "sharedWith", "testResults", "tags", "similarTo", "similarReportIdsForDelete"],
+  superadmin: ["status", "tags", "similarTo", "similarReportIdsForDelete"],
 };
 
 function getAllowedFieldsForRole(role: string): string[] {

@@ -131,6 +131,7 @@ export default function Register() {
             <option className="bg-black text-white"  value="admin">Admin</option>
             <option  className="bg-black text-white"  value="sales">Sales</option>
             <option  className="bg-black text-white"  value="labtester">Lab Tester</option>
+            <option  className="bg-black text-white"  value="finance">Finance</option>
           </select>
         </div>
 

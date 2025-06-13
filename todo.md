@@ -31,8 +31,8 @@ candedly automatic meeting schedule, chat/notes system.
 <mark> explore imagekit response values for making a file private and getting all file related details</mark>
 
 ---
-### Stage 1 <mark style="background:#59FE17; padding:10px; border-radius:12px">Approved
-## Project is on Stage 2
+### Stage 0 <mark style="background:#59FE17; padding:10px; border-radius:12px">Approved
+## Project is on Stage 1
 
 1.  add region and test feilds for sales person on upload.
 1. add functionality --  product already exists. show stats if yes.

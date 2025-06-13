@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { Loader2, Tag, TagIcon } from "lucide-react";
+import { FlaskConicalIcon, Loader2, LocateFixedIcon, MapPin, Tag, TagIcon, UploadCloudIcon } from "lucide-react";
 import { useNotification } from "./Notification";
 import { apiClient } from "@/lib/api-client";
 import FileUpload from "./FileUpload";
@@ -12,12 +12,14 @@ import CreatableSelect from "react-select/creatable";
 
 interface ReportFormData {
   title: string;
+  region: string;
   description: string;
   fileUrl: string;
   fileType: string;
   fileSize: number;
   imageKitFileId: string;
   tags: string[];
+  testsToConduct: string[];
   sharedWith: string[];
   similarTo: Types.ObjectId[];
 }
@@ -50,6 +52,15 @@ export default function DocumentUploadForm() {
   ]); // Default tags
   const [tags, setTags] = useState<TagOption[]>([]);
 
+  const [testsToConductOptions, setTestsToConductOptions] = useState<TagOption[]>([
+    { label: "Strength Tests", value: "strength tests" },
+    { label: "Fastnes", value: "fastnes" },
+    { label: "Shelf Life Test", value: "shelf life test" },
+    { label: "Microbial Contamination Test", value: "microbial contamination test" },
+    { label: "Quality Tests", value: "quality tests" },
+  ]); // Default tests to conduct
+  const [testsToConduct, setTestsToConduct] = useState<TagOption[]>([]);
+
   const {
     register,
     handleSubmit,
@@ -59,6 +70,7 @@ export default function DocumentUploadForm() {
   } = useForm<ReportFormData>({
     defaultValues: {
       title: "",
+      region: "",
       description: "",
       fileUrl: "",
       fileType: "",
@@ -67,6 +79,7 @@ export default function DocumentUploadForm() {
       tags: [],
       sharedWith: [],
       similarTo: [],
+      testsToConduct: [],
     },
   });
 
@@ -86,6 +99,43 @@ export default function DocumentUploadForm() {
 
     fetchRecipients();
   }, []);
+
+  const getUserLocation = async () => {
+    if (navigator.geolocation) {
+      setLoading(true);
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+
+          // Fetch the address using Nominatim (OpenStreetMap)
+          fetch(
+            `https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`
+          )
+            .then((response) => response.json())
+            .then((data) => {
+              // Extract the address from the API response
+              const address = data.display_name;
+              console.log("🚀 ~ .then ~ address:", data);
+              setValue("region", address);
+              setLoading(false);
+            })
+            .catch((error) => {
+              console.error("Error fetching address:", error);
+              setLoading(false);
+              setValue("region", "Unable to fetch address");
+            });
+        },
+        (error) => {
+          console.error("Error detecting location:", error);
+          setLoading(false);
+          setValue("region", "Location not provided");
+        }
+      );
+    } else {
+      setLoading(false);
+      setValue("region", "Geolocation not supported");
+    }
+  };
 
   // Similarity check on button click
   const handleCheckSimilarity = async () => {
@@ -111,7 +161,7 @@ export default function DocumentUploadForm() {
       setSimilarReports(data.similarReports || []);
       setExists(data.exists);
       setIsSimilarityChecked(true);
-      if (data.exists == false ) {
+      if (data.exists == false) {
         showNotification(
           "No similar reports found in database by the Software!",
           "success"
@@ -120,7 +170,7 @@ export default function DocumentUploadForm() {
         showNotification(
           "Similar Reports and Products Found in Database!",
           "warning"
-        ); 
+        );
       }
     } catch (err) {
       console.error("Error checking similarity:", err);
@@ -173,8 +223,8 @@ export default function DocumentUploadForm() {
           ? data.tags.map((tag) => tag.trim())
           : [],
         similarTo: similarReports.map((report) => report._id),
-
       };
+      console.log("🚀 ~ onSubmit ~ updatedData:", updatedData)
 
       // Send the updated data
       await apiClient.sendDocument(updatedData);
@@ -182,6 +232,7 @@ export default function DocumentUploadForm() {
 
       // Reset form after successful submission
       setValue("title", "");
+      setValue("region", "");
       setValue("description", "");
       setValue("fileUrl", "");
       setValue("fileSize", 0);
@@ -189,6 +240,7 @@ export default function DocumentUploadForm() {
       setValue("tags", []);
       setValue("sharedWith", []);
       setValue("similarTo", []);
+      setValue("testsToConduct", []);
       setUploadProgress(0);
       setSimilarReports([]);
       setExists(false);
@@ -204,12 +256,21 @@ export default function DocumentUploadForm() {
   };
 
   const handleTagChange = (newValue: TagOption[]) => {
-    setTags(newValue);
-    setValue(
-      "tags",
-      newValue.map((tag) => tag.value)
-    );
-    showNotification("Tags updated successfully!", "success");
+      setTags(newValue);
+      setValue(
+        "tags",
+        newValue.map((tag) => tag.value)
+      );
+      showNotification("Tags updated successfully!", "success");
+  };
+
+  const handleTestsToConductChange = (newValue: TagOption[]) => {
+      setTestsToConduct(newValue);
+      setValue(
+        "testsToConduct",
+        newValue.map((tag) => tag.value)
+      );
+      showNotification("Tests To Conduct updated successfully!", "success");
   };
 
   return (
@@ -245,8 +306,48 @@ export default function DocumentUploadForm() {
         )}
       </div>
 
+      <div className="form-control ">
+        <label className="label">
+          <span className="label-text">Region</span>
+          <MapPin className="hover:text-primary" size={20} />
+        </label>
+        <div className="relative">
+          {/* Location Icon Button (Left Inside Input) */}
+          <button
+            type="button"
+            onClick={() => {
+              getUserLocation();
+            }}
+            className="absolute tooltip tooltip-left left-1 top-1/2 -translate-y-1/2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 rounded-md p-2 hover:bg-gray-300 dark:hover:bg-gray-600 focus:outline-none z-10"
+            data-tip="Use my location"
+          >
+            {loading ? (
+              <span className="loading loading-spinner loading-sm text-primary"></span>
+            ) : (
+              <LocateFixedIcon size={27} />
+            )}
+          </button>
+
+          {/* Input Field (with left padding to make room for icon) */}
+          <input
+            type="text"
+            placeholder="Add City, State, Country OR 'Use Current Location'"
+            className={`input input-bordered w-full pl-16 ${
+              errors.region ? "input-error" : ""
+            }`}
+            {...register("region", { required: "Location is required" })}
+          />
+        </div>
+
+        {errors.region && (
+          <span className="text-error text-sm mt-1">
+            {errors.region.message}
+          </span>
+        )}
+      </div>
+
       <div className="form-control">
-        <label className="label">Upload Document / MSDS</label>
+        <label className="label">Upload Document / MSDS <UploadCloudIcon className="hover:text-primary" size={23} /></label>
         <FileUpload
           onSuccess={handleUploadSuccess}
           onProgress={handleUploadProgress}
@@ -296,6 +397,7 @@ export default function DocumentUploadForm() {
               backgroundColor: "#333", // Dark background for the dropdown menu
               color: "#fff", // White text in the dropdown
               borderRadius: "0.375rem",
+              zIndex:2,
             }),
             option: (provided, state) => ({
               ...provided,
@@ -340,6 +442,84 @@ export default function DocumentUploadForm() {
               >
                 x
               </button>
+            </span>
+          ))}
+        </div>
+      </div>
+
+      {/* Tests to Conduct selection with custom and default tests */}
+      <div className="form-control">
+        <label className="label">
+          Tests To Conduct <FlaskConicalIcon className="hover:text-primary" size={18} />
+        </label>
+        <CreatableSelect
+          isMulti
+          options={testsToConductOptions}
+          value={testsToConduct}
+          onChange={handleTestsToConductChange}
+          isSearchable
+          placeholder="|  Search or Create Tests"
+          className="bg-gray-800 text-black border-gray-600 rounded-md"
+          getOptionLabel={(e) => e.label}
+          getOptionValue={(e) => e.value}
+          onCreateOption={(inputValue) => {
+            const newTag = {
+              label: inputValue,
+              value: inputValue.toLowerCase(),
+            };
+            setTestsToConductOptions((prevTags) => [...prevTags, newTag]);
+            setTestsToConduct((prevTags) => [...prevTags, newTag]);
+          }}
+          styles={{
+            control: (provided) => ({
+              ...provided,
+              backgroundColor: "transparent",
+              borderColor: "#ccc",
+              color: "#000",
+            }),
+            menu: (provided) => ({
+              ...provided,
+              backgroundColor: "#333", // Dark background for the dropdown menu
+              color: "#fff", // White text in the dropdown
+              borderRadius: "0.375rem",
+            }),
+            option: (provided, state) => ({
+              ...provided,
+              backgroundColor: state.isSelected
+                ? "#0CA30E"
+                : state.isFocused
+                ? "#076E09"
+                : "#333", // Dark background when focused or selected
+              color: state.isSelected ? "#0CA30E" : "#fff", // White text color
+            }),
+            input: (provided) => ({
+              ...provided,
+              fontSize: "18px",
+              fontWeight: "bold",
+              backgroundColor: "#335861",
+              padding: "0.1rem",
+              margin: "0.5rem",
+              borderColor: "#ccc",
+              borderRadius: "0.375rem",
+              color: "#fff", // White text color for input
+            }),
+            placeholder: (provided) => ({
+              ...provided,
+              zIndex: 1,
+              margin: "0.5rem",
+              color: "#bbb", // Lighter color for the placeholder
+            }),
+          }}
+        />
+        <div className="mt-2 flex flex-wrap gap-2">
+          {testsToConduct.map((tag) => (
+            <span
+              key={tag.value}
+              className="p-2 bg-green-500/40 flex gap-2  rounded-full text-sm"
+            > 
+            <FlaskConicalIcon  size={18} />
+              {tag.label}{" "}
+             
             </span>
           ))}
         </div>

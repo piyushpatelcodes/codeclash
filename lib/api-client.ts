@@ -3,7 +3,9 @@ import { IUser } from "@/models/User";
 import { IVideo } from "@/models/Video";
 
 export type VideoFormData = Omit<IVideo, "_id">;
-export type ReportFormData = Omit<IReport, "uploadedBy" | "isPrivate">;
+export type ReportFormData = Omit<IReport, "uploadedBy" | "isPrivate"> & {
+  similarReportIdsForDelete?: string[]; // Optional field for deletion
+};
 
 type FetchOptions<T = unknown> = {
   method?: "GET" | "POST" | "PUT" | "DELETE" | "PATCH";

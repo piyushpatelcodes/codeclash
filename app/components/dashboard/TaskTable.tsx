@@ -173,6 +173,21 @@ const getStatusOptions = (role: string, status: string) => {
     }
   }
 
+  if (role === "finance") {
+    if (!statusOptions.some((option) => option.value === "ApprovedByFinance")) {
+      statusOptions.push({
+        label: `Approved by ${capitalRole}`,
+        value: "ApprovedByFinance",
+      });
+    }
+    if (!statusOptions.some((option) => option.value === "RejectedByFinance")) {
+      statusOptions.push({
+        label: `Rejected by ${capitalRole}`,
+        value: "RejectedByFinance",
+      });
+    }
+  }
+
   return statusOptions;
 };
 
@@ -184,15 +199,15 @@ export default function TaskTable() {
   const { showNotification } = useNotification();
   const [currentUserRole, setCurrentUserRole] = useState<string>("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [taskIdformodal, setTaskIdformodal] = useState<string | null>(null);
+  const [taskformodal, setTaskformodal] = useState<IReport | null>(null);
 
-  const openModal = (taskId: string) => {
-    setTaskIdformodal(taskId);
+  const openModal = (task: IReport) => {
+    setTaskformodal(task);
     setIsModalOpen(true);
   };
   const closeModal = () => {
     setIsModalOpen(false);
-    setTaskIdformodal(null);
+    setTaskformodal(null);
   };
 
   // Fetch the role when the component mounts
@@ -224,7 +239,9 @@ export default function TaskTable() {
             | "pending"
             | "reviewed"
             | "approved"
+            | "ApprovedByFinance"
             | "RejectedByLab"
+            | "RejectedByFinance"
             | "RejectedByAdmin",
         },
         taskId
@@ -336,8 +353,12 @@ export default function TaskTable() {
         return "Reviewed";
       case "approved":
         return "Approved";
+      case "ApprovedByFinance":
+        return "Approved By Finance";
       case "RejectedByLab":
         return "Rejected By Lab";
+      case "RejectedByFinance":
+        return "Rejected By Finance";
       case "RejectedByAdmin":
         return "Rejected By Admin";
       default:
@@ -346,7 +367,7 @@ export default function TaskTable() {
   }
 
   return (
-    <div className="bg-white dark:bg-[#23232b] rounded-lg shadow mt-6 overflow-x-auto">
+    <div className="bg-white dark:bg-[#23232b] rounded-lg shadow  ">
       <div className="p-4 border-b border-gray-200 dark:border-gray-800">
         <select
           value={groupBy}
@@ -375,7 +396,7 @@ export default function TaskTable() {
 
           <table className="w-full text-sm border-collapse">
             <thead>
-              <tr className="text-gray-400 dark:text-gray-500">
+              <tr className="text-gray-500 dark:text-gray-500">
                 <th className="p-3 text-left border-r border-gray-200 dark:border-gray-700 w-[11vw]">
                   Task Name
                 </th>
@@ -395,7 +416,7 @@ export default function TaskTable() {
                 <th className="p-3 text-left border-l border-gray-200 dark:border-gray-700">
                   Actions
                 </th>
-                {(currentUserRole === "labtester" ||
+                {(currentUserRole === "labtester" || currentUserRole === "finance" ||
                   currentUserRole === "admin") && (
                   <th className="p-3 text-left">Verdict</th>
                 )}
@@ -417,7 +438,7 @@ export default function TaskTable() {
                 .map((task, idx) => (
                   <tr
                     key={idx}
-                    className="border-t border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800"
+                    className="border-t border-gray-100 dark:border-gray-800 hover:bg-gray-300/40 dark:hover:bg-gray-800"
                   >
                     <td className="p-3 text-gray-900 dark:text-gray-100 border-r border-gray-200 dark:border-gray-700">
                       {task.title}
@@ -487,6 +508,8 @@ export default function TaskTable() {
                               ? "Admin"
                               : role === "sales"
                               ? "Sales"
+                              : role === "finance"
+                              ? "Finance"
                               : "Lab Personnel"
                           }`;
 
@@ -516,9 +539,13 @@ export default function TaskTable() {
                             ? "bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300"
                             : task.status === "RejectedByAdmin"
                             ? "bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300"
+                            : task.status === "RejectedByFinance"
+                            ? "bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300"
                             : task.status === "pending"
                             ? "bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300"
                             : task.status === "approved"
+                            ? "bg-yellow-100 dark:bg-green-700 text-yellow-700 dark:text-green-300"
+                            : task.status === "ApprovedByFinance"
                             ? "bg-yellow-100 dark:bg-green-700 text-yellow-700 dark:text-green-300"
                             : "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300"
                         }`}
@@ -537,14 +564,12 @@ export default function TaskTable() {
                     </td>
                     <td className="w-[9vw] p-3 border-l border-gray-200 dark:border-gray-700">
                       <div className="flex items-center space-x-2">
-                        {currentUserRole === "sales" && (
                           <Edit
                             onClick={() => handleEdit(task)}
                             size={20}
                             className="hover:text-blue-400 text-gray-400 cursor-pointer transition duration-150 ease-in-out transform active:scale-75"
                           />
-                        )}
-                        {(currentUserRole === "admin" ||
+                        {(currentUserRole === "admin" || currentUserRole === "finance" ||
                           currentUserRole === "labtester") && (
                           <Upload
                             onClick={() => {
@@ -552,7 +577,7 @@ export default function TaskTable() {
                                 "Opening upload modal for task:",
                                 task
                               ); // Log the task to verify
-                              openModal(task._id?.toString()); // Pass the correct task._id
+                              openModal(task); // Pass the correct task._id
                             }}
                             size={20}
                             className="hover:text-blue-400 text-gray-400 cursor-pointer transition duration-150 ease-in-out transform active:scale-75"
@@ -563,7 +588,7 @@ export default function TaskTable() {
                             Upload Test Result
                           </h2>
                           <UploadVerdictForm
-                            reportId={taskIdformodal || undefined}
+                            report={taskformodal || undefined}
                             closeModal={closeModal}
                           />
                         </Modal>
@@ -583,11 +608,11 @@ export default function TaskTable() {
                       </div>
                     </td>
 
-                    {(currentUserRole === "labtester" ||
+                    {(currentUserRole === "labtester" || currentUserRole === "finance" ||
                       currentUserRole === "admin") && (
                       <td className="w-[9vw] p-3">
                         <select
-                          className="bg-gray-900 text-white p-2 rounded-md w-full border border-gray-700 focus:outline-none focus:ring focus:ring-blue-500"
+                          className="dark:bg-gray-900 cursor-pointer dark:text-white text-black bg-white p-2 rounded-md w-full border dark:border-gray-700 border-gray-400 focus:outline-none focus:ring focus:ring-blue-200  dark:focus:ring-blue-500"
                           value={task.status}
                           onChange={(e) =>
                             handleStatusChange(e, task._id?.toString())

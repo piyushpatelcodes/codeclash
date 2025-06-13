@@ -1,6 +1,6 @@
 import Spline from '@splinetool/react-spline';
 import TextPressure from '../components/ui/PressureText';
-import ShinyText from '../components/ui/ShinyButton';
+import ShinyText from '../components/ui/ShinyText';
 
 export default function HomePage() {
   return (
@@ -42,17 +42,21 @@ export default function HomePage() {
             <a href="/login" className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium">
               Get Started
             </a>
-            <a href='/sales/dashboard' className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium">
+            <a href='/sales/dashboard' className="hover:bg-blue-800 border-white/40 border cursor-pointer bg-blue-700 text-white px-6 py-3 rounded-md font-medium">
               
-            <ShinyText text="Sales Dashboard" disabled={false} speed={3} className='bg-amber-500' />
+            <ShinyText text="Sales Dashboard" disabled={false} speed={3} />
             </a>
 
-            <a href='/labtester/dashboard' className="border cursor-pointer border-white hover:bg-white hover:text-gray-900 px-6 py-3 rounded-md font-medium">
-              Lab Personell Dashboard
+            <a href='/labtester/dashboard' className="border cursor-pointer border-white/40 hover:bg-indigo-700 hover:text-gray-900 px-6 py-3 rounded-md font-medium">
+              <ShinyText text="Lab Personell Dashboard" disabled={false} speed={3} />
             </a>
-            <a href='/admin/dashboard' className="border cursor-pointer border-white hover:bg-white hover:text-gray-900 px-6 py-3 rounded-md font-medium">
-              Admin dashboard
+            <a href='/admin/dashboard' className="border cursor-pointer border-white/40 hover:bg-indigo-700 hover:text-gray-900 px-6 py-3 rounded-md font-medium">
+              <ShinyText text="Admin Dashboard" disabled={false} speed={3} />
             </a>
+            <a href='/finance/dashboard' className="border cursor-pointer border-white/40 hover:bg-indigo-700 hover:text-gray-900 px-6 py-3 rounded-md font-medium">
+              <ShinyText text="Finance Dashboard" disabled={false} speed={3} />
+            </a>
+          
           </div>
         </div>
       </section>
