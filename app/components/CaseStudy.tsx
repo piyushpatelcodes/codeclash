@@ -3,8 +3,8 @@ import { FlaskConical } from "lucide-react";
 import ShinyText from "./ui/ShinyText";
 
 const product2 = {
-  title: "Product 1",
-  description: "This is a detailed description of Product 1. It is a premium quality product with excellent performance in various tests.",
+  title: "Plant Based Syprup",
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illo aspernatur explicabo voluptates at corporis eius iste unde, adipisci, error nesciunt iure tenetur beatae accusamus? Voluptates sequi quibusdam obcaecati iusto quidem incidunt? Delectus, natus ipsam id illo asperiores modi praesentium ipsa ex fugiat? Laboriosam perferendis ipsum neque dolorem beatae quis accusamus corrupti sunt possimus esse aliquam iusto adipisci iste, quas doloremque enim reiciendis vitae soluta nisi modi impedit quasi? Non ad atque quidem aut quibusdam praesentium ullam totam, iusto labore laborum perspiciatis fugit expedita veniam. Mollitia, qui modi sed quam libero fugiat quis minima molestiae vero dolore earum, enim eius nostrum culpa perferendis similique nam? Vero, adipisci? Tenetur, itaque praesentium dicta accusamus nam, blanditiis eaque officiis beatae explicabo magni sit cum. Doloremque perspiciatis ab quas sequi officiis earum maiores explicabo laboriosam iste aliquid! Illum, ut.",
   testResults: [
     {
       uploadedBy: { email: "lab1@company.com", role: "lab" },
@@ -59,7 +59,7 @@ const product2 = {
 };
 
 const product1 = {
-  title: "Product 1",
+  title: "Plant Based Medicine",
   description: "This is a detailed description of Product 1. It is a premium quality product with excellent performance in various tests.",
   testResults: [
     {
@@ -115,8 +115,7 @@ export default function CaseStudy() {
       <h2 className="text-2xl font-bold mb-6 text-center text-gray-800 dark:text-white">Product Comparison</h2>
       <div className="flex gap-8 justify-between">
         <div className="w-1/2">
-          <h3 className="text-lg font-bold">{product1.title}</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-300">{product1.description}</p>
+         
 
           {/* Test Result Cards */}
           {product1.testResults.map((testResult, testIndex) => (
@@ -124,6 +123,24 @@ export default function CaseStudy() {
               key={testIndex}
               className="bg-white mt-3 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md"
             >
+               <div className="m-3">
+  <h1 className="text-center items-center text-lg font-bold mb-1">
+    Title: {product1.title}
+  </h1>
+  Description:
+  <p className="bg-gray-500/40 p-2 rounded-md text-sm text-gray-600 dark:text-gray-300">
+    {product1.description.length > 200 ? (
+      <>
+        {product1.description.slice(0, 190)}...
+        <span className="text-blue-500 cursor-pointer">
+          {' '}read more
+        </span>
+      </>
+    ) : (
+      product1.description
+    )}
+  </p>
+</div>
               <p className="ms-center justify-center flex gap-2 m-2 text-lg font-bold text-white bg-green-500/50 dark:bg-green-500 p-2 rounded-md mt-5 hover:text-green-700 transition-colors duration-500">
                 <FlaskConical className="animate-pulse" />
                 <ShinyText text="Test Results" disabled={false} speed={3} className="uppercase custom-class" />
@@ -225,8 +242,7 @@ export default function CaseStudy() {
         </div>
         {/* Product 2 */}
         <div className="w-1/2">
-          <h3 className="text-lg font-bold">{product2.title}</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-300">{product2.description}</p>
+         
 
           {/* Test Result Cards */}
            {product2.testResults.map((testResult, testIndex) => (
@@ -234,6 +250,25 @@ export default function CaseStudy() {
               key={testIndex}
               className="bg-white mt-3 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md"
             >
+              <div className="m-3">
+  <h1 className="text-center items-center text-lg font-bold mb-1">
+    Title: {product2.title}
+  </h1>
+  Description:
+  <p className="bg-gray-500/40 p-2 rounded-md text-sm text-gray-600 dark:text-gray-300">
+    {product2.description.length > 200 ? (
+      <>
+        {product2.description.slice(0, 190)}...
+        <span className="text-blue-500 cursor-pointer">
+          {' '}read more
+        </span>
+      </>
+    ) : (
+      product2.description
+    )}
+  </p>
+</div>
+
               <p className="ms-center justify-center flex gap-2 m-2 text-lg font-bold text-white bg-green-500/50 dark:bg-green-500 p-2 rounded-md mt-5 hover:text-green-700 transition-colors duration-500">
                 <FlaskConical className="animate-pulse" />
                 <ShinyText text="Test Results" disabled={false} speed={3} className="uppercase custom-class" />
