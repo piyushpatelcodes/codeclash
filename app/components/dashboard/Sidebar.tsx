@@ -26,7 +26,7 @@ export default async function Sidebar() {
           {currentUser.email.charAt(0).toUpperCase()}
         </div>
         <div className="ml-3">
-          <div className="font-semibold text-gray-900 dark:text-gray-100">ManageCo.</div>
+          <div className="font-semibold text-gray-900 dark:text-gray-100">CodeClash</div>
           <div className="text-xs text-gray-400">{currentUser.email}</div>
         </div>
       </div>
