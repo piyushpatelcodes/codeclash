@@ -14,7 +14,7 @@ export default function Home() {
         const data = await apiClient.getVideos();
         setVideos(data);
       } catch (error) {
-        console.error("Error fetching videos:", error);
+        console.error("Error fetching videos: ", error);
       }
     };
 
